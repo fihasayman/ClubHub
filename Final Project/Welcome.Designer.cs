@@ -29,17 +29,28 @@
         private void InitializeComponent()
         {
             button2 = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button2.Location = new Point(98, 21);
+            button2.Location = new Point(256, 114);
             button2.Name = "button2";
-            button2.Size = new Size(570, 397);
+            button2.Size = new Size(160, 98);
             button2.TabIndex = 1;
             button2.Text = "Modon";
             button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            button1.Location = new Point(256, 239);
+            button1.Name = "button1";
+            button1.Size = new Size(160, 157);
+            button1.TabIndex = 2;
+            button1.Text = "ek number er";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Welcome
             // 
@@ -47,6 +58,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(13, 34, 21);
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(button2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Welcome";
@@ -56,5 +68,6 @@
 
         #endregion
         private Button button2;
+        private Button button1;
     }
 }
