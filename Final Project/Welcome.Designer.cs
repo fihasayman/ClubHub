@@ -33,11 +33,12 @@
             // 
             // button2
             // 
-            button2.Location = new Point(272, 117);
+            button2.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            button2.Location = new Point(280, 103);
             button2.Name = "button2";
             button2.Size = new Size(160, 120);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Modon";
             button2.UseVisualStyleBackColor = true;
             // 
             // Welcome
