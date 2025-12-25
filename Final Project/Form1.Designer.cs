@@ -1,6 +1,6 @@
 ﻿namespace Final_Project
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
             panel3 = new Panel();
@@ -43,8 +43,10 @@
             textBox1 = new TextBox();
             pass = new Label();
             button2 = new Button();
+            Goback = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -60,7 +62,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.MintCream;
+            panel2.BackColor = Color.Honeydew;
             panel2.BackgroundImageLayout = ImageLayout.Zoom;
             panel2.Controls.Add(panel3);
             panel2.Controls.Add(panel1);
@@ -214,31 +216,45 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(1233, 12);
+            button2.Location = new Point(1241, 12);
             button2.Name = "button2";
-            button2.Size = new Size(27, 26);
+            button2.Size = new Size(27, 27);
             button2.TabIndex = 3;
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // Form1
+            // Goback
+            // 
+            Goback.BackColor = Color.Transparent;
+            Goback.BackgroundImage = (Image)resources.GetObject("Goback.BackgroundImage");
+            Goback.BackgroundImageLayout = ImageLayout.Zoom;
+            Goback.Location = new Point(12, 12);
+            Goback.Name = "Goback";
+            Goback.Size = new Size(77, 61);
+            Goback.TabIndex = 19;
+            Goback.TabStop = false;
+            Goback.Click += Goback_Click;
+            // 
+            // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = Color.White;
             ClientSize = new Size(1280, 601);
+            Controls.Add(Goback);
             Controls.Add(button2);
             Controls.Add(panel2);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Goback).EndInit();
             ResumeLayout(false);
         }
 
@@ -257,5 +273,6 @@
         private Button button2;
         private Panel panel1;
         private Panel panel3;
+        private PictureBox Goback;
     }
 }
