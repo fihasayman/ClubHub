@@ -24,36 +24,41 @@ namespace Final_Project
 
         private void Admin_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            AdminForm AF = new AdminForm();
+            AF.Show();
             this.Hide();
         }
 
         private void President_Click(object sender, EventArgs e)
         {
-            Uni choseuni = new Uni();
+           /* Uni choseuni = new Uni();
             choseuni.Show();
+            this.Hide();*/
+
+            Session.Role = "President";
+
+            Uni universityPanel = new Uni();
+            universityPanel.Show();
             this.Hide();
         }
 
         private void Member_Click(object sender, EventArgs e)
         {
-            Uni choseuni = new Uni();
+            /*Uni choseuni = new Uni();
             choseuni.Show();
-            this.Hide();
-        }
+            this.Hide();*/
 
-        private void Applicant_Click(object sender, EventArgs e)
-        {
-            Uni choseuni = new Uni();
-            choseuni.Show();
+            Session.Role = "Member";
+
+            Uni universityPanel = new Uni(); 
+            universityPanel.Show();
             this.Hide();
         }
 
         private void User_Click(object sender, EventArgs e)
         {
-            Uni choseuni = new Uni();
-            choseuni.Show();
+            userchoseuni userchose= new userchoseuni();
+            userchose.Show();
             this.Hide();
         }
 

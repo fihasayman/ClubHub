@@ -35,7 +35,14 @@ namespace Final_Project
         private void Register_Click(object sender, EventArgs e)
         {
             MessageBox.Show("You have been registered for a viva. Wait for the call from the club president via email.");
-            
+
+        }
+
+        private void Goback_Click(object sender, EventArgs e)
+        {
+            Uni choseuni = new Uni();
+            choseuni.Show();
+            this.Hide();
         }
     }
 }

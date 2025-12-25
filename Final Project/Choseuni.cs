@@ -19,8 +19,14 @@ namespace Final_Project
 
         private void AIUB_Click(object sender, EventArgs e)
         {
-            AIUBclub club = new AIUBclub();
+            /*AIUBclub club = new AIUBclub();
             club.Show();
+            this.Hide();*/
+
+            Session.University = "AIUB";
+
+            AIUBclub clubPanel = new AIUBclub();
+            clubPanel.Show();
             this.Hide();
         }
 
@@ -29,6 +35,47 @@ namespace Final_Project
             Profile pro = new Profile();
             pro.Show();
             this.Hide();
+        }
+
+        private void cross_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BRAC_Click(object sender, EventArgs e)
+        {
+            BRACclub brac = new BRACclub();
+            brac.Show();
+            this.Hide();
+        }
+
+        private void IUB_Click(object sender, EventArgs e)
+        {
+            IUBClub iub = new IUBClub();
+            iub.Show();
+            this.Hide();
+        }
+
+        private void NSU_Click(object sender, EventArgs e)
+        {
+            NSUclub nsu = new NSUclub();
+            nsu.Show();
+            this.Hide();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Uni_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
