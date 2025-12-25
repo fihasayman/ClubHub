@@ -76,7 +76,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Location = new Point(1241, 12);
             button2.Name = "button2";
-            button2.Size = new Size(27, 26);
+            button2.Size = new Size(27, 27);
             button2.TabIndex = 4;
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
@@ -329,8 +329,9 @@
             // 
             // Register
             // 
-            Register.BackColor = Color.MintCream;
+            Register.BackColor = Color.Honeydew;
             Register.Cursor = Cursors.Hand;
+            Register.FlatStyle = FlatStyle.Flat;
             Register.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Register.ForeColor = Color.FromArgb(13, 34, 21);
             Register.Location = new Point(1021, 492);
