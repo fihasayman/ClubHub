@@ -21,5 +21,89 @@ namespace Final_Project
         {
             this.Close();
         }
+
+        private void Login_Club(string club)
+        {
+            Session.Club = club;
+
+            if (Session.Role == "President")
+            {
+                Login presidentLogin = new Login();
+                presidentLogin.Show();
+            }
+            else if (Session.Role == "Member")
+            {
+                FormMember memberLogin = new FormMember();
+                memberLogin.Show();
+            }
+
+            this.Hide();
+        }
+
+        private void LoginACC_Click(object sender, EventArgs e) => Login_Club("ACC");
+        private void LoginABC_Click(object sender, EventArgs e) => Login_Club("ABC");
+        private void LoginADC_Click(object sender, EventArgs e) => Login_Club("ADC");
+        private void LoginARND_Click(object sender, EventArgs e) => Login_Club("ARND");
+
+        private void JoinACC_Click(object sender, EventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void JoinABC_Click(object sender, EventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void JoinADC_Click(object sender, EventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void JoinARND_Click(object sender, EventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void ViewACC_Click(object sender, EventArgs e)
+        {
+            EventACC EACC = new EventACC();
+            EACC.Show();
+            this.Hide();
+        }
+
+        private void ViewADC_Click(object sender, EventArgs e)
+        {
+            EventADC EADC = new EventADC();
+            EADC.Show();
+            this.Hide();
+        }
+
+        private void Goback_Click(object sender, EventArgs e)
+        {
+            Uni choseuni = new Uni();
+            choseuni.Show();
+            this.Hide();
+        }
+
+        private void ViewABC_Click(object sender, EventArgs e)
+        {
+            EventABC EABC = new EventABC();
+            EABC.Show();
+            this.Hide();
+        }
+
+        private void ViewARND_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
     }
 }

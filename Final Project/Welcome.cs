@@ -22,14 +22,14 @@ namespace Final_Project
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Profile profile = new Profile();
             profile.Show();
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
             Profile profile = new Profile();
             profile.Show();
