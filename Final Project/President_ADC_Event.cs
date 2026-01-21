@@ -45,8 +45,7 @@ namespace Final_Project
 
         private void Add_Event_Click(object sender, EventArgs e)
         {
-            Add_Event_ADC add_event_win = new Add_Event_ADC();
-            add_event_win.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
         }
 
         private void AddPanel_Paint(object sender, PaintEventArgs e)
@@ -56,14 +55,31 @@ namespace Final_Project
 
         private void EditADC_Click(object sender, EventArgs e)
         {
-            Edit_Event_ADC edit_event_ = new Edit_Event_ADC();
-            edit_event_.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
         }
 
         private void Edit2_Click(object sender, EventArgs e)
         {
-            Edit2_Event_ADC edit2_event_ = new Edit2_Event_ADC();
-            edit2_event_.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
+        }
+
+        private void Activity_ADC_1_Click(object sender, EventArgs e)
+        {
+            Activity_ADC_1 activity_ADC_1 = new Activity_ADC_1();
+            activity_ADC_1.Show();
+            this.Hide();
+        }
+
+        private void Activity_ADC2_Click(object sender, EventArgs e)
+        {
+            Activity_ADC_2 activity_ADC_2 = new Activity_ADC_2();
+            activity_ADC_2.Show();
+            this.Hide();
+        }
+
+        private void President_ADC_Event_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

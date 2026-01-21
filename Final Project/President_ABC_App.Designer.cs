@@ -37,7 +37,6 @@
             pictureBox2 = new PictureBox();
             Reject = new Button();
             Logout = new Button();
-            pictureBox1 = new PictureBox();
             Viva = new Button();
             GridViewMem = new DataGridView();
             cross = new PictureBox();
@@ -48,13 +47,14 @@
             Event = new Button();
             Goback = new PictureBox();
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)GridViewMem).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label3
@@ -107,6 +107,7 @@
             Load_App.Text = "Load Applicants";
             Load_App.TextAlign = ContentAlignment.MiddleRight;
             Load_App.UseVisualStyleBackColor = false;
+            Load_App.Click += Load_App_Click;
             // 
             // pictureBox2
             // 
@@ -132,6 +133,7 @@
             Reject.Text = "Reject Application";
             Reject.TextAlign = ContentAlignment.MiddleRight;
             Reject.UseVisualStyleBackColor = false;
+            Reject.Click += Reject_Click;
             // 
             // Logout
             // 
@@ -148,17 +150,6 @@
             Logout.UseVisualStyleBackColor = false;
             Logout.Click += Logout_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.FromArgb(222, 238, 246);
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1137, 262);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(34, 36);
-            pictureBox1.TabIndex = 62;
-            pictureBox1.TabStop = false;
-            // 
             // Viva
             // 
             Viva.BackColor = Color.FromArgb(222, 238, 246);
@@ -169,9 +160,10 @@
             Viva.Name = "Viva";
             Viva.Size = new Size(226, 57);
             Viva.TabIndex = 61;
-            Viva.Text = "Call Applicant\r\nfor Viva";
+            Viva.Text = "Accept Application";
             Viva.TextAlign = ContentAlignment.MiddleRight;
             Viva.UseVisualStyleBackColor = false;
+            Viva.Click += Viva_Click;
             // 
             // GridViewMem
             // 
@@ -301,12 +293,24 @@
             panel1.Size = new Size(648, 67);
             panel1.TabIndex = 57;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.FromArgb(222, 238, 246);
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(1137, 264);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(30, 30);
+            pictureBox1.TabIndex = 70;
+            pictureBox1.TabStop = false;
+            // 
             // President_ABC_App
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(1393, 708);
+            Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(pictureBox4);
@@ -314,7 +318,6 @@
             Controls.Add(pictureBox2);
             Controls.Add(Reject);
             Controls.Add(Logout);
-            Controls.Add(pictureBox1);
             Controls.Add(Viva);
             Controls.Add(GridViewMem);
             Controls.Add(cross);
@@ -328,11 +331,11 @@
             Text = "President_ABC_App";
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)GridViewMem).EndInit();
             ((System.ComponentModel.ISupportInitialize)cross).EndInit();
             ((System.ComponentModel.ISupportInitialize)Goback).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -346,7 +349,6 @@
         private PictureBox pictureBox2;
         private Button Reject;
         private Button Logout;
-        private PictureBox pictureBox1;
         private Button Viva;
         private DataGridView GridViewMem;
         private PictureBox cross;
@@ -357,5 +359,6 @@
         private Button Event;
         private PictureBox Goback;
         private Panel panel1;
+        private PictureBox pictureBox1;
     }
 }

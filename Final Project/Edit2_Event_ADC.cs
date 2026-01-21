@@ -32,5 +32,10 @@ namespace Final_Project
             MessageBox.Show("Changes Saved!");
             this.Close();
         }
+
+        private void S_time_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

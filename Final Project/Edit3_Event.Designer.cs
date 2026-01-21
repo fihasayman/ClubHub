@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Edit3_Event));
-            label10 = new Label();
-            E_time = new DateTimePicker();
-            label9 = new Label();
-            E_date = new DateTimePicker();
             S_time = new DateTimePicker();
             S_date = new DateTimePicker();
             panel4 = new Panel();
@@ -59,63 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             SuspendLayout();
             // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.Transparent;
-            label10.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(573, 203);
-            label10.Name = "label10";
-            label10.Size = new Size(98, 23);
-            label10.TabIndex = 98;
-            label10.Text = "End Time";
-            label10.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // E_time
-            // 
-            E_time.CalendarFont = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_time.CustomFormat = " hh:mm tt";
-            E_time.Font = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_time.Format = DateTimePickerFormat.Custom;
-            E_time.Location = new Point(573, 225);
-            E_time.Name = "E_time";
-            E_time.ShowUpDown = true;
-            E_time.Size = new Size(156, 29);
-            E_time.TabIndex = 97;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(216, 203);
-            label9.Name = "label9";
-            label9.Size = new Size(93, 23);
-            label9.TabIndex = 96;
-            label9.Text = "End Date";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // E_date
-            // 
-            E_date.CalendarFont = new Font("Cambria", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_date.CalendarForeColor = Color.SteelBlue;
-            E_date.CalendarMonthBackground = Color.FromArgb(128, 128, 255);
-            E_date.CalendarTitleBackColor = Color.FromArgb(255, 128, 255);
-            E_date.CalendarTitleForeColor = Color.FromArgb(192, 192, 255);
-            E_date.CalendarTrailingForeColor = Color.FromArgb(128, 128, 255);
-            E_date.Cursor = Cursors.Hand;
-            E_date.CustomFormat = " dd MMM yyyy";
-            E_date.Font = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_date.Format = DateTimePickerFormat.Custom;
-            E_date.Location = new Point(216, 225);
-            E_date.MaxDate = new DateTime(2028, 12, 31, 0, 0, 0, 0);
-            E_date.MinDate = new DateTime(2023, 1, 1, 0, 0, 0, 0);
-            E_date.Name = "E_date";
-            E_date.Size = new Size(156, 29);
-            E_date.TabIndex = 95;
-            // 
             // S_time
             // 
             S_time.CalendarFont = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -125,7 +64,7 @@
             S_time.Location = new Point(404, 225);
             S_time.Name = "S_time";
             S_time.ShowUpDown = true;
-            S_time.Size = new Size(156, 29);
+            S_time.Size = new Size(325, 29);
             S_time.TabIndex = 94;
             // 
             // S_date
@@ -144,8 +83,9 @@
             S_date.MaxDate = new DateTime(2028, 12, 31, 0, 0, 0, 0);
             S_date.MinDate = new DateTime(2023, 1, 1, 0, 0, 0, 0);
             S_date.Name = "S_date";
-            S_date.Size = new Size(156, 29);
+            S_date.Size = new Size(325, 29);
             S_date.TabIndex = 93;
+            S_date.ValueChanged += S_date_ValueChanged;
             // 
             // panel4
             // 
@@ -339,9 +279,9 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(404, 203);
             label2.Name = "label2";
-            label2.Size = new Size(106, 23);
+            label2.Size = new Size(58, 23);
             label2.TabIndex = 76;
-            label2.Text = "Start Time";
+            label2.Text = "Time";
             label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label3
@@ -352,9 +292,9 @@
             label3.ForeColor = Color.White;
             label3.Location = new Point(43, 203);
             label3.Name = "label3";
-            label3.Size = new Size(101, 23);
+            label3.Size = new Size(53, 23);
             label3.TabIndex = 75;
-            label3.Text = "Start Date";
+            label3.Text = "Date";
             label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // Title
@@ -402,10 +342,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(780, 650);
-            Controls.Add(label10);
-            Controls.Add(E_time);
-            Controls.Add(label9);
-            Controls.Add(E_date);
             Controls.Add(S_time);
             Controls.Add(S_date);
             Controls.Add(panel4);
@@ -433,6 +369,7 @@
             Name = "Edit3_Event";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Edit3_Event";
+            Load += Edit3_Event_Load;
             ((System.ComponentModel.ISupportInitialize)cross).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -443,10 +380,6 @@
         private DateTimePicker E_date2;
         private DateTimePicker S_time2;
         private DateTimePicker S_date2;
-        private Label label10;
-        private DateTimePicker E_time;
-        private Label label9;
-        private DateTimePicker E_date;
         private DateTimePicker S_time;
         private DateTimePicker S_date;
         private Panel panel4;

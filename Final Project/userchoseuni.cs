@@ -19,6 +19,7 @@ namespace Final_Project
 
         private void AIUB_Click(object sender, EventArgs e)
         {
+            Session.University = "AIUB";
             AIUBuser Aiubuser = new AIUBuser();
             Aiubuser.Show();
             this.Hide();
@@ -26,11 +27,12 @@ namespace Final_Project
 
         private void cross_Click(object sender, EventArgs e)
         {
-            this.Show();
+            this.Close();
         }
 
         private void IUB_Click(object sender, EventArgs e)
         {
+            Session.University = "IUB";
             IUBuser iubuser = new IUBuser();
             iubuser.Show();
             this.Hide();
@@ -38,6 +40,7 @@ namespace Final_Project
 
         private void BRAC_Click(object sender, EventArgs e)
         {
+            Session.University = "BRAC";
             BRACuser bracuser = new BRACuser();
             bracuser.Show();
             this.Hide();
@@ -45,6 +48,7 @@ namespace Final_Project
 
         private void NSU_Click(object sender, EventArgs e)
         {
+            Session.University = "NSU";
             NSUuser nsuuser = new NSUuser();
             nsuuser.Show();
             this.Hide();

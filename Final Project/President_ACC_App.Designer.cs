@@ -209,6 +209,7 @@
             Load_App.Text = "Load Applicants";
             Load_App.TextAlign = ContentAlignment.MiddleRight;
             Load_App.UseVisualStyleBackColor = false;
+            Load_App.Click += Load_App_Click;
             // 
             // pictureBox2
             // 
@@ -234,6 +235,7 @@
             Reject.Text = "Reject Application";
             Reject.TextAlign = ContentAlignment.MiddleRight;
             Reject.UseVisualStyleBackColor = false;
+            Reject.Click += Reject_Click;
             // 
             // Logout
             // 
@@ -254,9 +256,9 @@
             pictureBox1.BackColor = Color.FromArgb(222, 238, 246);
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1137, 262);
+            pictureBox1.Location = new Point(1137, 267);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(34, 36);
+            pictureBox1.Size = new Size(30, 30);
             pictureBox1.TabIndex = 45;
             pictureBox1.TabStop = false;
             // 
@@ -270,9 +272,10 @@
             Viva.Name = "Viva";
             Viva.Size = new Size(226, 57);
             Viva.TabIndex = 44;
-            Viva.Text = "Call Applicant\r\nfor Viva";
+            Viva.Text = "Accept Application";
             Viva.TextAlign = ContentAlignment.MiddleRight;
             Viva.UseVisualStyleBackColor = false;
+            Viva.Click += Viva_Click;
             // 
             // label3
             // 

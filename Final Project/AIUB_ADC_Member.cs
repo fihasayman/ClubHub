@@ -29,5 +29,29 @@ namespace Final_Project
             clubPanel.Show();
             this.Hide();
         }
+
+        private void Volunteer_ADC_1_Click(object sender, EventArgs e)
+        {
+            Volunteer_Form_ADC_1 volunteerFormAdc1 = new Volunteer_Form_ADC_1();
+            volunteerFormAdc1.ShowDialog();
+        }
+
+        private void Volunteer_ADC_2_Click(object sender, EventArgs e)
+        {
+            Volunteer_Form_ADC_2 volunteerFormAdc2 = new Volunteer_Form_ADC_2();
+            volunteerFormAdc2.ShowDialog();
+        }
+
+        private void Registration_ADC_1_Click(object sender, EventArgs e)
+        {
+            Registration_Form_ADC_1 registrationForm1 = new Registration_Form_ADC_1();
+            registrationForm1.ShowDialog();
+        }
+
+        private void RegistrationADC2_Click(object sender, EventArgs e)
+        {
+            Registration_Form_ADC_2 registrationForm2 = new Registration_Form_ADC_2();
+            registrationForm2.ShowDialog();
+        }
     }
 }

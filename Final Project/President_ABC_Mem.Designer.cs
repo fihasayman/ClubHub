@@ -84,6 +84,7 @@
             Load_Mem.Text = "Load Members";
             Load_Mem.TextAlign = ContentAlignment.MiddleRight;
             Load_Mem.UseVisualStyleBackColor = false;
+            Load_Mem.Click += Load_Mem_Click;
             // 
             // pictureBox3
             // 
@@ -109,6 +110,7 @@
             Update_Mem.Text = "Update Member";
             Update_Mem.TextAlign = ContentAlignment.MiddleRight;
             Update_Mem.UseVisualStyleBackColor = false;
+            Update_Mem.Click += Update_Mem_Click;
             // 
             // pictureBox2
             // 
@@ -134,6 +136,7 @@
             Remove_Mem.Text = "Remove Member";
             Remove_Mem.TextAlign = ContentAlignment.MiddleRight;
             Remove_Mem.UseVisualStyleBackColor = false;
+            Remove_Mem.Click += Remove_Mem_Click;
             // 
             // GridViewMem
             // 
@@ -208,6 +211,7 @@
             Add_Mem.Text = "Add Member";
             Add_Mem.TextAlign = ContentAlignment.MiddleRight;
             Add_Mem.UseVisualStyleBackColor = false;
+            Add_Mem.Click += Add_Mem_Click;
             // 
             // Member
             // 

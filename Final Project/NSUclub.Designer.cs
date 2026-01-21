@@ -38,18 +38,18 @@
             label7 = new Label();
             panel2 = new Panel();
             label6 = new Label();
-            LoginABC = new Button();
-            LoginADC = new Button();
-            LoginARND = new Button();
-            LoginACC = new Button();
+            LoginPHSC = new Button();
+            LoginCEC = new Button();
+            LoginAPC = new Button();
+            LoginYES = new Button();
             NSUAPC = new Label();
             NSUCEC = new Label();
             NSUPHSC = new Label();
-            ViewARND = new Button();
-            ViewADC = new Button();
-            ViewABC = new Button();
+            EventAPC = new Button();
+            EventCEC = new Button();
+            EventPHSC = new Button();
             NSUYES = new Label();
-            ViewACC = new Button();
+            EventYES = new Button();
             panel1 = new Panel();
             label2 = new Label();
             label1 = new Label();
@@ -81,7 +81,7 @@
             // 
             panel5.BackColor = Color.White;
             panel5.ForeColor = Color.White;
-            panel5.Location = new Point(570, 572);
+            panel5.Location = new Point(564, 577);
             panel5.Name = "panel5";
             panel5.Size = new Size(420, 2);
             panel5.TabIndex = 43;
@@ -90,7 +90,7 @@
             // 
             panel4.BackColor = Color.White;
             panel4.ForeColor = Color.White;
-            panel4.Location = new Point(570, 493);
+            panel4.Location = new Point(564, 498);
             panel4.Name = "panel4";
             panel4.Size = new Size(420, 2);
             panel4.TabIndex = 42;
@@ -99,7 +99,7 @@
             // 
             panel3.BackColor = Color.White;
             panel3.ForeColor = Color.White;
-            panel3.Location = new Point(567, 326);
+            panel3.Location = new Point(561, 331);
             panel3.Name = "panel3";
             panel3.Size = new Size(420, 2);
             panel3.TabIndex = 44;
@@ -110,7 +110,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(722, 577);
+            label9.Location = new Point(716, 582);
             label9.Name = "label9";
             label9.Size = new Size(265, 21);
             label9.TabIndex = 59;
@@ -123,7 +123,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(674, 498);
+            label8.Location = new Point(668, 503);
             label8.Name = "label8";
             label8.Size = new Size(313, 21);
             label8.TabIndex = 58;
@@ -136,7 +136,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.FromArgb(222, 238, 246);
-            label7.Location = new Point(683, 411);
+            label7.Location = new Point(677, 416);
             label7.Name = "label7";
             label7.Size = new Size(304, 21);
             label7.TabIndex = 57;
@@ -147,7 +147,7 @@
             // 
             panel2.BackColor = Color.White;
             panel2.ForeColor = Color.White;
-            panel2.Location = new Point(570, 406);
+            panel2.Location = new Point(564, 411);
             panel2.Name = "panel2";
             panel2.Size = new Size(420, 2);
             panel2.TabIndex = 40;
@@ -158,87 +158,87 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(222, 238, 246);
-            label6.Location = new Point(694, 331);
+            label6.Location = new Point(688, 336);
             label6.Name = "label6";
             label6.Size = new Size(293, 21);
             label6.TabIndex = 56;
             label6.Text = "NSU Young Entrepreneur's Society";
             label6.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // LoginABC
+            // LoginPHSC
             // 
-            LoginABC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginABC.Cursor = Cursors.Hand;
-            LoginABC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginABC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginABC.FlatStyle = FlatStyle.Flat;
-            LoginABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginABC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginABC.Location = new Point(1029, 382);
-            LoginABC.Name = "LoginABC";
-            LoginABC.Size = new Size(124, 50);
-            LoginABC.TabIndex = 55;
-            LoginABC.Text = "Login";
-            LoginABC.UseVisualStyleBackColor = false;
-            LoginABC.Click += LoginABC_Click;
+            LoginPHSC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginPHSC.Cursor = Cursors.Hand;
+            LoginPHSC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginPHSC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginPHSC.FlatStyle = FlatStyle.Flat;
+            LoginPHSC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginPHSC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginPHSC.Location = new Point(1029, 382);
+            LoginPHSC.Name = "LoginPHSC";
+            LoginPHSC.Size = new Size(124, 50);
+            LoginPHSC.TabIndex = 55;
+            LoginPHSC.Text = "Login";
+            LoginPHSC.UseVisualStyleBackColor = false;
+            LoginPHSC.Click += LoginPHSC_Click;
             // 
-            // LoginADC
+            // LoginCEC
             // 
-            LoginADC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginADC.Cursor = Cursors.Hand;
-            LoginADC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginADC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginADC.FlatStyle = FlatStyle.Flat;
-            LoginADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginADC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginADC.Location = new Point(1029, 469);
-            LoginADC.Name = "LoginADC";
-            LoginADC.Size = new Size(124, 50);
-            LoginADC.TabIndex = 54;
-            LoginADC.Text = "Login";
-            LoginADC.UseVisualStyleBackColor = false;
-            LoginADC.Click += LoginADC_Click;
+            LoginCEC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginCEC.Cursor = Cursors.Hand;
+            LoginCEC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginCEC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginCEC.FlatStyle = FlatStyle.Flat;
+            LoginCEC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginCEC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginCEC.Location = new Point(1029, 469);
+            LoginCEC.Name = "LoginCEC";
+            LoginCEC.Size = new Size(124, 50);
+            LoginCEC.TabIndex = 54;
+            LoginCEC.Text = "Login";
+            LoginCEC.UseVisualStyleBackColor = false;
+            LoginCEC.Click += LoginCEC_Click;
             // 
-            // LoginARND
+            // LoginAPC
             // 
-            LoginARND.BackColor = Color.FromArgb(222, 238, 246);
-            LoginARND.Cursor = Cursors.Hand;
-            LoginARND.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginARND.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginARND.FlatStyle = FlatStyle.Flat;
-            LoginARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginARND.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginARND.Location = new Point(1029, 548);
-            LoginARND.Name = "LoginARND";
-            LoginARND.Size = new Size(124, 50);
-            LoginARND.TabIndex = 53;
-            LoginARND.Text = "Login";
-            LoginARND.UseVisualStyleBackColor = false;
-            LoginARND.Click += LoginARND_Click;
+            LoginAPC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginAPC.Cursor = Cursors.Hand;
+            LoginAPC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginAPC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginAPC.FlatStyle = FlatStyle.Flat;
+            LoginAPC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginAPC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginAPC.Location = new Point(1029, 548);
+            LoginAPC.Name = "LoginAPC";
+            LoginAPC.Size = new Size(124, 50);
+            LoginAPC.TabIndex = 53;
+            LoginAPC.Text = "Login";
+            LoginAPC.UseVisualStyleBackColor = false;
+            LoginAPC.Click += LoginAPC_Click;
             // 
-            // LoginACC
+            // LoginYES
             // 
-            LoginACC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginACC.Cursor = Cursors.Hand;
-            LoginACC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginACC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginACC.FlatStyle = FlatStyle.Flat;
-            LoginACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginACC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginACC.Location = new Point(1029, 300);
-            LoginACC.Name = "LoginACC";
-            LoginACC.Size = new Size(124, 50);
-            LoginACC.TabIndex = 52;
-            LoginACC.Text = "Login";
-            LoginACC.UseVisualStyleBackColor = false;
-            LoginACC.Click += LoginACC_Click;
+            LoginYES.BackColor = Color.FromArgb(222, 238, 246);
+            LoginYES.Cursor = Cursors.Hand;
+            LoginYES.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginYES.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginYES.FlatStyle = FlatStyle.Flat;
+            LoginYES.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginYES.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginYES.Location = new Point(1029, 300);
+            LoginYES.Name = "LoginYES";
+            LoginYES.Size = new Size(124, 50);
+            LoginYES.TabIndex = 52;
+            LoginYES.Text = "Login";
+            LoginYES.UseVisualStyleBackColor = false;
+            LoginYES.Click += LoginYES_Click;
             // 
             // NSUAPC
             // 
             NSUAPC.AutoSize = true;
             NSUAPC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             NSUAPC.ForeColor = Color.White;
-            NSUAPC.Location = new Point(570, 541);
+            NSUAPC.Location = new Point(564, 546);
             NSUAPC.Name = "NSUAPC";
             NSUAPC.Size = new Size(126, 28);
             NSUAPC.TabIndex = 51;
@@ -249,7 +249,7 @@
             NSUCEC.AutoSize = true;
             NSUCEC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             NSUCEC.ForeColor = Color.White;
-            NSUCEC.Location = new Point(570, 462);
+            NSUCEC.Location = new Point(564, 467);
             NSUCEC.Name = "NSUCEC";
             NSUCEC.Size = new Size(128, 28);
             NSUCEC.TabIndex = 50;
@@ -260,86 +260,90 @@
             NSUPHSC.AutoSize = true;
             NSUPHSC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             NSUPHSC.ForeColor = Color.White;
-            NSUPHSC.Location = new Point(570, 375);
+            NSUPHSC.Location = new Point(564, 380);
             NSUPHSC.Name = "NSUPHSC";
             NSUPHSC.Size = new Size(143, 28);
             NSUPHSC.TabIndex = 49;
             NSUPHSC.Text = "NSU PHSC";
             // 
-            // ViewARND
+            // EventAPC
             // 
-            ViewARND.BackColor = Color.FromArgb(222, 238, 246);
-            ViewARND.Cursor = Cursors.Hand;
-            ViewARND.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewARND.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewARND.FlatStyle = FlatStyle.Flat;
-            ViewARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewARND.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewARND.Location = new Point(1173, 548);
-            ViewARND.Name = "ViewARND";
-            ViewARND.Size = new Size(124, 50);
-            ViewARND.TabIndex = 48;
-            ViewARND.Text = "View";
-            ViewARND.UseVisualStyleBackColor = false;
+            EventAPC.BackColor = Color.FromArgb(222, 238, 246);
+            EventAPC.Cursor = Cursors.Hand;
+            EventAPC.FlatAppearance.MouseDownBackColor = Color.White;
+            EventAPC.FlatAppearance.MouseOverBackColor = Color.White;
+            EventAPC.FlatStyle = FlatStyle.Flat;
+            EventAPC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventAPC.ForeColor = Color.FromArgb(0, 40, 66);
+            EventAPC.Location = new Point(1173, 548);
+            EventAPC.Name = "EventAPC";
+            EventAPC.Size = new Size(124, 50);
+            EventAPC.TabIndex = 48;
+            EventAPC.Text = "Event";
+            EventAPC.UseVisualStyleBackColor = false;
+            EventAPC.Click += EventAPC_Click;
             // 
-            // ViewADC
+            // EventCEC
             // 
-            ViewADC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewADC.Cursor = Cursors.Hand;
-            ViewADC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewADC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewADC.FlatStyle = FlatStyle.Flat;
-            ViewADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewADC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewADC.Location = new Point(1173, 469);
-            ViewADC.Name = "ViewADC";
-            ViewADC.Size = new Size(124, 50);
-            ViewADC.TabIndex = 47;
-            ViewADC.Text = "View";
-            ViewADC.UseVisualStyleBackColor = false;
+            EventCEC.BackColor = Color.FromArgb(222, 238, 246);
+            EventCEC.Cursor = Cursors.Hand;
+            EventCEC.FlatAppearance.MouseDownBackColor = Color.White;
+            EventCEC.FlatAppearance.MouseOverBackColor = Color.White;
+            EventCEC.FlatStyle = FlatStyle.Flat;
+            EventCEC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventCEC.ForeColor = Color.FromArgb(0, 40, 66);
+            EventCEC.Location = new Point(1173, 469);
+            EventCEC.Name = "EventCEC";
+            EventCEC.Size = new Size(124, 50);
+            EventCEC.TabIndex = 47;
+            EventCEC.Text = "Event";
+            EventCEC.UseVisualStyleBackColor = false;
+            EventCEC.Click += EventCEC_Click;
             // 
-            // ViewABC
+            // EventPHSC
             // 
-            ViewABC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewABC.Cursor = Cursors.Hand;
-            ViewABC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewABC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewABC.FlatStyle = FlatStyle.Flat;
-            ViewABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewABC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewABC.Location = new Point(1173, 382);
-            ViewABC.Name = "ViewABC";
-            ViewABC.Size = new Size(124, 50);
-            ViewABC.TabIndex = 46;
-            ViewABC.Text = "View";
-            ViewABC.UseVisualStyleBackColor = false;
+            EventPHSC.BackColor = Color.FromArgb(222, 238, 246);
+            EventPHSC.Cursor = Cursors.Hand;
+            EventPHSC.FlatAppearance.MouseDownBackColor = Color.White;
+            EventPHSC.FlatAppearance.MouseOverBackColor = Color.White;
+            EventPHSC.FlatStyle = FlatStyle.Flat;
+            EventPHSC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventPHSC.ForeColor = Color.FromArgb(0, 40, 66);
+            EventPHSC.Location = new Point(1173, 382);
+            EventPHSC.Name = "EventPHSC";
+            EventPHSC.Size = new Size(124, 50);
+            EventPHSC.TabIndex = 46;
+            EventPHSC.Text = "Event";
+            EventPHSC.UseVisualStyleBackColor = false;
+            EventPHSC.Click += EventPHSC_Click;
             // 
             // NSUYES
             // 
             NSUYES.AutoSize = true;
             NSUYES.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             NSUYES.ForeColor = Color.White;
-            NSUYES.Location = new Point(570, 295);
+            NSUYES.Location = new Point(564, 300);
             NSUYES.Name = "NSUYES";
             NSUYES.Size = new Size(124, 28);
             NSUYES.TabIndex = 45;
             NSUYES.Text = "NSU YES";
             // 
-            // ViewACC
+            // EventYES
             // 
-            ViewACC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewACC.Cursor = Cursors.Hand;
-            ViewACC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewACC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewACC.FlatStyle = FlatStyle.Flat;
-            ViewACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewACC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewACC.Location = new Point(1173, 300);
-            ViewACC.Name = "ViewACC";
-            ViewACC.Size = new Size(124, 50);
-            ViewACC.TabIndex = 41;
-            ViewACC.Text = "View";
-            ViewACC.UseVisualStyleBackColor = false;
+            EventYES.BackColor = Color.FromArgb(222, 238, 246);
+            EventYES.Cursor = Cursors.Hand;
+            EventYES.FlatAppearance.MouseDownBackColor = Color.White;
+            EventYES.FlatAppearance.MouseOverBackColor = Color.White;
+            EventYES.FlatStyle = FlatStyle.Flat;
+            EventYES.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventYES.ForeColor = Color.FromArgb(0, 40, 66);
+            EventYES.Location = new Point(1173, 300);
+            EventYES.Name = "EventYES";
+            EventYES.Size = new Size(124, 50);
+            EventYES.TabIndex = 41;
+            EventYES.Text = "Event";
+            EventYES.UseVisualStyleBackColor = false;
+            EventYES.Click += EventYES_Click;
             // 
             // panel1
             // 
@@ -413,7 +417,7 @@
             label3.BackColor = Color.Tomato;
             label3.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(0, 40, 66);
-            label3.Location = new Point(905, 547);
+            label3.Location = new Point(899, 552);
             label3.Name = "label3";
             label3.Size = new Size(82, 21);
             label3.TabIndex = 101;
@@ -426,7 +430,7 @@
             label5.BackColor = Color.LightGreen;
             label5.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(0, 40, 66);
-            label5.Location = new Point(921, 382);
+            label5.Location = new Point(915, 387);
             label5.Name = "label5";
             label5.Size = new Size(66, 21);
             label5.TabIndex = 100;
@@ -439,7 +443,7 @@
             label4.BackColor = Color.LightGreen;
             label4.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(0, 40, 66);
-            label4.Location = new Point(921, 469);
+            label4.Location = new Point(915, 474);
             label4.Name = "label4";
             label4.Size = new Size(66, 21);
             label4.TabIndex = 99;
@@ -452,7 +456,7 @@
             label10.BackColor = Color.LightGreen;
             label10.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = Color.FromArgb(0, 40, 66);
-            label10.Location = new Point(921, 302);
+            label10.Location = new Point(915, 307);
             label10.Name = "label10";
             label10.Size = new Size(66, 21);
             label10.TabIndex = 98;
@@ -479,18 +483,18 @@
             Controls.Add(label7);
             Controls.Add(panel2);
             Controls.Add(label6);
-            Controls.Add(LoginABC);
-            Controls.Add(LoginADC);
-            Controls.Add(LoginARND);
-            Controls.Add(LoginACC);
+            Controls.Add(LoginPHSC);
+            Controls.Add(LoginCEC);
+            Controls.Add(LoginAPC);
+            Controls.Add(LoginYES);
             Controls.Add(NSUAPC);
             Controls.Add(NSUCEC);
             Controls.Add(NSUPHSC);
-            Controls.Add(ViewARND);
-            Controls.Add(ViewADC);
-            Controls.Add(ViewABC);
+            Controls.Add(EventAPC);
+            Controls.Add(EventCEC);
+            Controls.Add(EventPHSC);
             Controls.Add(NSUYES);
-            Controls.Add(ViewACC);
+            Controls.Add(EventYES);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -520,18 +524,18 @@
         private Label label7;
         private Panel panel2;
         private Label label6;
-        private Button LoginABC;
-        private Button LoginADC;
-        private Button LoginARND;
-        private Button LoginACC;
+        private Button LoginPHSC;
+        private Button LoginCEC;
+        private Button LoginAPC;
+        private Button LoginYES;
         private Label NSUAPC;
         private Label NSUCEC;
         private Label NSUPHSC;
-        private Button ViewARND;
-        private Button ViewADC;
-        private Button ViewABC;
+        private Button EventAPC;
+        private Button EventCEC;
+        private Button EventPHSC;
         private Label NSUYES;
-        private Button ViewACC;
+        private Button EventYES;
         private Panel panel1;
         private Label label2;
         private Label label1;

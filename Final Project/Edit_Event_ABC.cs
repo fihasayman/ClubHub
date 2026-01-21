@@ -32,5 +32,10 @@ namespace Final_Project
             MessageBox.Show("Changes Saved!");
             this.Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,18 +38,18 @@
             Brac = new Label();
             panel2 = new Panel();
             label6 = new Label();
-            LoginABC = new Button();
-            LoginADC = new Button();
-            LoginARND = new Button();
-            LoginACC = new Button();
+            LoginBUBC = new Button();
+            LoginBUCC = new Button();
+            LoginBUAC = new Button();
+            LoginROBU = new Button();
             BUAC = new Label();
             BUCC = new Label();
             BUBC = new Label();
-            ViewARND = new Button();
-            ViewADC = new Button();
-            ViewABC = new Button();
+            Event_BUAC = new Button();
+            Event_BUCC = new Button();
+            EventBUBC = new Button();
             ROBU = new Label();
-            ViewACC = new Button();
+            Event_ROBU = new Button();
             panel1 = new Panel();
             label2 = new Label();
             pictureBox1 = new PictureBox();
@@ -81,7 +81,7 @@
             // 
             panel5.BackColor = Color.White;
             panel5.ForeColor = SystemColors.ButtonHighlight;
-            panel5.Location = new Point(570, 572);
+            panel5.Location = new Point(567, 572);
             panel5.Name = "panel5";
             panel5.Size = new Size(420, 2);
             panel5.TabIndex = 69;
@@ -90,7 +90,7 @@
             // 
             panel4.BackColor = Color.White;
             panel4.ForeColor = SystemColors.ButtonHighlight;
-            panel4.Location = new Point(570, 493);
+            panel4.Location = new Point(567, 493);
             panel4.Name = "panel4";
             panel4.Size = new Size(420, 2);
             panel4.TabIndex = 68;
@@ -99,7 +99,7 @@
             // 
             panel3.BackColor = Color.White;
             panel3.ForeColor = SystemColors.ButtonHighlight;
-            panel3.Location = new Point(570, 406);
+            panel3.Location = new Point(567, 406);
             panel3.Name = "panel3";
             panel3.Size = new Size(420, 2);
             panel3.TabIndex = 70;
@@ -110,7 +110,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(724, 577);
+            label9.Location = new Point(710, 577);
             label9.Name = "label9";
             label9.Size = new Size(277, 21);
             label9.TabIndex = 85;
@@ -123,7 +123,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(728, 498);
+            label8.Location = new Point(715, 498);
             label8.Name = "label8";
             label8.Size = new Size(273, 21);
             label8.TabIndex = 84;
@@ -136,7 +136,7 @@
             Brac.BackColor = Color.Transparent;
             Brac.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Brac.ForeColor = Color.FromArgb(222, 238, 246);
-            Brac.Location = new Point(738, 411);
+            Brac.Location = new Point(725, 411);
             Brac.Name = "Brac";
             Brac.Size = new Size(263, 21);
             Brac.TabIndex = 83;
@@ -147,7 +147,7 @@
             // 
             panel2.BackColor = Color.White;
             panel2.ForeColor = SystemColors.ButtonHighlight;
-            panel2.Location = new Point(567, 326);
+            panel2.Location = new Point(567, 324);
             panel2.Name = "panel2";
             panel2.Size = new Size(420, 2);
             panel2.TabIndex = 66;
@@ -158,87 +158,87 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(222, 238, 246);
-            label6.Location = new Point(721, 329);
+            label6.Location = new Point(707, 329);
             label6.Name = "label6";
             label6.Size = new Size(280, 21);
             label6.TabIndex = 82;
             label6.Text = "Robotics Club of BRAC University";
             label6.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // LoginABC
+            // LoginBUBC
             // 
-            LoginABC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginABC.Cursor = Cursors.Hand;
-            LoginABC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginABC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginABC.FlatStyle = FlatStyle.Flat;
-            LoginABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginABC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginABC.Location = new Point(1029, 382);
-            LoginABC.Name = "LoginABC";
-            LoginABC.Size = new Size(124, 50);
-            LoginABC.TabIndex = 81;
-            LoginABC.Text = "Login";
-            LoginABC.UseVisualStyleBackColor = false;
-            LoginABC.Click += LoginABC_Click;
+            LoginBUBC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginBUBC.Cursor = Cursors.Hand;
+            LoginBUBC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginBUBC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginBUBC.FlatStyle = FlatStyle.Flat;
+            LoginBUBC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginBUBC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginBUBC.Location = new Point(1029, 382);
+            LoginBUBC.Name = "LoginBUBC";
+            LoginBUBC.Size = new Size(124, 50);
+            LoginBUBC.TabIndex = 81;
+            LoginBUBC.Text = "Login";
+            LoginBUBC.UseVisualStyleBackColor = false;
+            LoginBUBC.Click += LoginBUBC_Click;
             // 
-            // LoginADC
+            // LoginBUCC
             // 
-            LoginADC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginADC.Cursor = Cursors.Hand;
-            LoginADC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginADC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginADC.FlatStyle = FlatStyle.Flat;
-            LoginADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginADC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginADC.Location = new Point(1030, 469);
-            LoginADC.Name = "LoginADC";
-            LoginADC.Size = new Size(124, 50);
-            LoginADC.TabIndex = 80;
-            LoginADC.Text = "Login";
-            LoginADC.UseVisualStyleBackColor = false;
-            LoginADC.Click += LoginADC_Click;
+            LoginBUCC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginBUCC.Cursor = Cursors.Hand;
+            LoginBUCC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginBUCC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginBUCC.FlatStyle = FlatStyle.Flat;
+            LoginBUCC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginBUCC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginBUCC.Location = new Point(1030, 469);
+            LoginBUCC.Name = "LoginBUCC";
+            LoginBUCC.Size = new Size(124, 50);
+            LoginBUCC.TabIndex = 80;
+            LoginBUCC.Text = "Login";
+            LoginBUCC.UseVisualStyleBackColor = false;
+            LoginBUCC.Click += LoginBUCC_Click;
             // 
-            // LoginARND
+            // LoginBUAC
             // 
-            LoginARND.BackColor = Color.FromArgb(222, 238, 246);
-            LoginARND.Cursor = Cursors.Hand;
-            LoginARND.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginARND.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginARND.FlatStyle = FlatStyle.Flat;
-            LoginARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginARND.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginARND.Location = new Point(1029, 548);
-            LoginARND.Name = "LoginARND";
-            LoginARND.Size = new Size(124, 50);
-            LoginARND.TabIndex = 79;
-            LoginARND.Text = "Login";
-            LoginARND.UseVisualStyleBackColor = false;
-            LoginARND.Click += LoginARND_Click;
+            LoginBUAC.BackColor = Color.FromArgb(222, 238, 246);
+            LoginBUAC.Cursor = Cursors.Hand;
+            LoginBUAC.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginBUAC.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginBUAC.FlatStyle = FlatStyle.Flat;
+            LoginBUAC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginBUAC.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginBUAC.Location = new Point(1029, 548);
+            LoginBUAC.Name = "LoginBUAC";
+            LoginBUAC.Size = new Size(124, 50);
+            LoginBUAC.TabIndex = 79;
+            LoginBUAC.Text = "Login";
+            LoginBUAC.UseVisualStyleBackColor = false;
+            LoginBUAC.Click += LoginBUAC_Click;
             // 
-            // LoginACC
+            // LoginROBU
             // 
-            LoginACC.BackColor = Color.FromArgb(222, 238, 246);
-            LoginACC.Cursor = Cursors.Hand;
-            LoginACC.FlatAppearance.MouseDownBackColor = Color.White;
-            LoginACC.FlatAppearance.MouseOverBackColor = Color.White;
-            LoginACC.FlatStyle = FlatStyle.Flat;
-            LoginACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LoginACC.ForeColor = Color.FromArgb(0, 40, 66);
-            LoginACC.Location = new Point(1029, 300);
-            LoginACC.Name = "LoginACC";
-            LoginACC.Size = new Size(124, 50);
-            LoginACC.TabIndex = 78;
-            LoginACC.Text = "Login";
-            LoginACC.UseVisualStyleBackColor = false;
-            LoginACC.Click += LoginACC_Click;
+            LoginROBU.BackColor = Color.FromArgb(222, 238, 246);
+            LoginROBU.Cursor = Cursors.Hand;
+            LoginROBU.FlatAppearance.MouseDownBackColor = Color.White;
+            LoginROBU.FlatAppearance.MouseOverBackColor = Color.White;
+            LoginROBU.FlatStyle = FlatStyle.Flat;
+            LoginROBU.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginROBU.ForeColor = Color.FromArgb(0, 40, 66);
+            LoginROBU.Location = new Point(1029, 300);
+            LoginROBU.Name = "LoginROBU";
+            LoginROBU.Size = new Size(124, 50);
+            LoginROBU.TabIndex = 78;
+            LoginROBU.Text = "Login";
+            LoginROBU.UseVisualStyleBackColor = false;
+            LoginROBU.Click += LoginROBU_Click;
             // 
             // BUAC
             // 
             BUAC.AutoSize = true;
             BUAC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             BUAC.ForeColor = Color.White;
-            BUAC.Location = new Point(570, 541);
+            BUAC.Location = new Point(567, 541);
             BUAC.Name = "BUAC";
             BUAC.Size = new Size(86, 28);
             BUAC.TabIndex = 77;
@@ -249,7 +249,7 @@
             BUCC.AutoSize = true;
             BUCC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             BUCC.ForeColor = Color.White;
-            BUCC.Location = new Point(567, 462);
+            BUCC.Location = new Point(564, 462);
             BUCC.Name = "BUCC";
             BUCC.Size = new Size(86, 28);
             BUCC.TabIndex = 76;
@@ -260,86 +260,90 @@
             BUBC.AutoSize = true;
             BUBC.Font = new Font("Century", 13.8F, FontStyle.Bold);
             BUBC.ForeColor = Color.White;
-            BUBC.Location = new Point(567, 375);
+            BUBC.Location = new Point(564, 375);
             BUBC.Name = "BUBC";
             BUBC.Size = new Size(86, 28);
             BUBC.TabIndex = 75;
             BUBC.Text = "BUBC";
             // 
-            // ViewARND
+            // Event_BUAC
             // 
-            ViewARND.BackColor = Color.FromArgb(222, 238, 246);
-            ViewARND.Cursor = Cursors.Hand;
-            ViewARND.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewARND.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewARND.FlatStyle = FlatStyle.Flat;
-            ViewARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewARND.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewARND.Location = new Point(1173, 548);
-            ViewARND.Name = "ViewARND";
-            ViewARND.Size = new Size(124, 50);
-            ViewARND.TabIndex = 74;
-            ViewARND.Text = "View";
-            ViewARND.UseVisualStyleBackColor = false;
+            Event_BUAC.BackColor = Color.FromArgb(222, 238, 246);
+            Event_BUAC.Cursor = Cursors.Hand;
+            Event_BUAC.FlatAppearance.MouseDownBackColor = Color.White;
+            Event_BUAC.FlatAppearance.MouseOverBackColor = Color.White;
+            Event_BUAC.FlatStyle = FlatStyle.Flat;
+            Event_BUAC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Event_BUAC.ForeColor = Color.FromArgb(0, 40, 66);
+            Event_BUAC.Location = new Point(1173, 548);
+            Event_BUAC.Name = "Event_BUAC";
+            Event_BUAC.Size = new Size(124, 50);
+            Event_BUAC.TabIndex = 74;
+            Event_BUAC.Text = "Event";
+            Event_BUAC.UseVisualStyleBackColor = false;
+            Event_BUAC.Click += Event_BUAC_Click;
             // 
-            // ViewADC
+            // Event_BUCC
             // 
-            ViewADC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewADC.Cursor = Cursors.Hand;
-            ViewADC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewADC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewADC.FlatStyle = FlatStyle.Flat;
-            ViewADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewADC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewADC.Location = new Point(1173, 469);
-            ViewADC.Name = "ViewADC";
-            ViewADC.Size = new Size(124, 50);
-            ViewADC.TabIndex = 73;
-            ViewADC.Text = "View";
-            ViewADC.UseVisualStyleBackColor = false;
+            Event_BUCC.BackColor = Color.FromArgb(222, 238, 246);
+            Event_BUCC.Cursor = Cursors.Hand;
+            Event_BUCC.FlatAppearance.MouseDownBackColor = Color.White;
+            Event_BUCC.FlatAppearance.MouseOverBackColor = Color.White;
+            Event_BUCC.FlatStyle = FlatStyle.Flat;
+            Event_BUCC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Event_BUCC.ForeColor = Color.FromArgb(0, 40, 66);
+            Event_BUCC.Location = new Point(1173, 469);
+            Event_BUCC.Name = "Event_BUCC";
+            Event_BUCC.Size = new Size(124, 50);
+            Event_BUCC.TabIndex = 73;
+            Event_BUCC.Text = "Event";
+            Event_BUCC.UseVisualStyleBackColor = false;
+            Event_BUCC.Click += Event_BUCC_Click;
             // 
-            // ViewABC
+            // EventBUBC
             // 
-            ViewABC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewABC.Cursor = Cursors.Hand;
-            ViewABC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewABC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewABC.FlatStyle = FlatStyle.Flat;
-            ViewABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewABC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewABC.Location = new Point(1173, 382);
-            ViewABC.Name = "ViewABC";
-            ViewABC.Size = new Size(124, 50);
-            ViewABC.TabIndex = 72;
-            ViewABC.Text = "View";
-            ViewABC.UseVisualStyleBackColor = false;
+            EventBUBC.BackColor = Color.FromArgb(222, 238, 246);
+            EventBUBC.Cursor = Cursors.Hand;
+            EventBUBC.FlatAppearance.MouseDownBackColor = Color.White;
+            EventBUBC.FlatAppearance.MouseOverBackColor = Color.White;
+            EventBUBC.FlatStyle = FlatStyle.Flat;
+            EventBUBC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventBUBC.ForeColor = Color.FromArgb(0, 40, 66);
+            EventBUBC.Location = new Point(1173, 382);
+            EventBUBC.Name = "EventBUBC";
+            EventBUBC.Size = new Size(124, 50);
+            EventBUBC.TabIndex = 72;
+            EventBUBC.Text = "Event";
+            EventBUBC.UseVisualStyleBackColor = false;
+            EventBUBC.Click += EventBUBC_Click;
             // 
             // ROBU
             // 
             ROBU.AutoSize = true;
             ROBU.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ROBU.ForeColor = Color.White;
-            ROBU.Location = new Point(564, 295);
+            ROBU.Location = new Point(564, 293);
             ROBU.Name = "ROBU";
             ROBU.Size = new Size(87, 28);
             ROBU.TabIndex = 71;
             ROBU.Text = "ROBU";
             // 
-            // ViewACC
+            // Event_ROBU
             // 
-            ViewACC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewACC.Cursor = Cursors.Hand;
-            ViewACC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewACC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewACC.FlatStyle = FlatStyle.Flat;
-            ViewACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewACC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewACC.Location = new Point(1173, 300);
-            ViewACC.Name = "ViewACC";
-            ViewACC.Size = new Size(124, 50);
-            ViewACC.TabIndex = 67;
-            ViewACC.Text = "View";
-            ViewACC.UseVisualStyleBackColor = false;
+            Event_ROBU.BackColor = Color.FromArgb(222, 238, 246);
+            Event_ROBU.Cursor = Cursors.Hand;
+            Event_ROBU.FlatAppearance.MouseDownBackColor = Color.White;
+            Event_ROBU.FlatAppearance.MouseOverBackColor = Color.White;
+            Event_ROBU.FlatStyle = FlatStyle.Flat;
+            Event_ROBU.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Event_ROBU.ForeColor = Color.FromArgb(0, 40, 66);
+            Event_ROBU.Location = new Point(1173, 300);
+            Event_ROBU.Name = "Event_ROBU";
+            Event_ROBU.Size = new Size(124, 50);
+            Event_ROBU.TabIndex = 67;
+            Event_ROBU.Text = "Event";
+            Event_ROBU.UseVisualStyleBackColor = false;
+            Event_ROBU.Click += Event_ROBU_Click;
             // 
             // panel1
             // 
@@ -386,7 +390,7 @@
             // 
             // cross
             // 
-            cross.BackColor = Color.FromArgb(13, 34, 21);
+            cross.BackColor = Color.FromArgb(0, 40, 66);
             cross.BackgroundImage = (Image)resources.GetObject("cross.BackgroundImage");
             cross.BackgroundImageLayout = ImageLayout.Zoom;
             cross.Location = new Point(1354, 12);
@@ -412,7 +416,7 @@
             label3.BackColor = Color.LightGreen;
             label3.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(0, 40, 66);
-            label3.Location = new Point(921, 302);
+            label3.Location = new Point(921, 300);
             label3.Name = "label3";
             label3.Size = new Size(66, 21);
             label3.TabIndex = 88;
@@ -425,7 +429,7 @@
             label4.BackColor = Color.LightGreen;
             label4.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(0, 40, 66);
-            label4.Location = new Point(924, 469);
+            label4.Location = new Point(921, 469);
             label4.Name = "label4";
             label4.Size = new Size(66, 21);
             label4.TabIndex = 89;
@@ -438,7 +442,7 @@
             label5.BackColor = Color.LightGreen;
             label5.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(0, 40, 66);
-            label5.Location = new Point(924, 548);
+            label5.Location = new Point(921, 548);
             label5.Name = "label5";
             label5.Size = new Size(66, 21);
             label5.TabIndex = 90;
@@ -451,7 +455,7 @@
             label7.BackColor = Color.Tomato;
             label7.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.FromArgb(0, 40, 66);
-            label7.Location = new Point(908, 382);
+            label7.Location = new Point(905, 382);
             label7.Name = "label7";
             label7.Size = new Size(82, 21);
             label7.TabIndex = 91;
@@ -478,18 +482,18 @@
             Controls.Add(Brac);
             Controls.Add(panel2);
             Controls.Add(label6);
-            Controls.Add(LoginABC);
-            Controls.Add(LoginADC);
-            Controls.Add(LoginARND);
-            Controls.Add(LoginACC);
+            Controls.Add(LoginBUBC);
+            Controls.Add(LoginBUCC);
+            Controls.Add(LoginBUAC);
+            Controls.Add(LoginROBU);
             Controls.Add(BUAC);
             Controls.Add(BUCC);
             Controls.Add(BUBC);
-            Controls.Add(ViewARND);
-            Controls.Add(ViewADC);
-            Controls.Add(ViewABC);
+            Controls.Add(Event_BUAC);
+            Controls.Add(Event_BUCC);
+            Controls.Add(EventBUBC);
             Controls.Add(ROBU);
-            Controls.Add(ViewACC);
+            Controls.Add(Event_ROBU);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
@@ -499,6 +503,7 @@
             Name = "BRACclub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "BRACclub";
+            Load += BRACclub_Load;
             ((System.ComponentModel.ISupportInitialize)Goback).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)cross).EndInit();
@@ -518,18 +523,18 @@
         private Label Brac;
         private Panel panel2;
         private Label label6;
-        private Button LoginABC;
-        private Button LoginADC;
-        private Button LoginARND;
-        private Button LoginACC;
+        private Button LoginBUBC;
+        private Button LoginBUCC;
+        private Button LoginBUAC;
+        private Button LoginROBU;
         private Label BUAC;
         private Label BUCC;
         private Label BUBC;
-        private Button ViewARND;
-        private Button ViewADC;
-        private Button ViewABC;
+        private Button Event_BUAC;
+        private Button Event_BUCC;
+        private Button EventBUBC;
         private Label ROBU;
-        private Button ViewACC;
+        private Button Event_ROBU;
         private Panel panel1;
         private Label label2;
         private PictureBox pictureBox1;

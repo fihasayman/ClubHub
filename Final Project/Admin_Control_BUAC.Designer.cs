@@ -215,6 +215,7 @@
             Load_Pre_ACC.Text = "Load Presidents";
             Load_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Load_Pre_ACC.UseVisualStyleBackColor = false;
+            Load_Pre_ACC.Click += Load_Pre_ACC_Click;
             // 
             // Update_Mem
             // 
@@ -230,6 +231,7 @@
             Update_Mem.Text = "Update President";
             Update_Mem.TextAlign = ContentAlignment.MiddleRight;
             Update_Mem.UseVisualStyleBackColor = false;
+            Update_Mem.Click += Update_Mem_Click;
             // 
             // pictureBox2
             // 
@@ -256,6 +258,7 @@
             Remove_Pre_ACC.Text = "Remove President";
             Remove_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Remove_Pre_ACC.UseVisualStyleBackColor = false;
+            Remove_Pre_ACC.Click += Remove_Pre_ACC_Click;
             // 
             // pictureBox1
             // 
@@ -282,6 +285,7 @@
             Add_Pre_ACC.Text = "Add President";
             Add_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Add_Pre_ACC.UseVisualStyleBackColor = false;
+            Add_Pre_ACC.Click += Add_Pre_ACC_Click;
             // 
             // GridViewMem
             // 

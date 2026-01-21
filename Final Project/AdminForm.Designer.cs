@@ -35,7 +35,6 @@
             panel1 = new Panel();
             email = new Label();
             Admin_Login = new Button();
-            linkLabel1 = new LinkLabel();
             label3 = new Label();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
@@ -113,20 +112,6 @@
             Admin_Login.UseVisualStyleBackColor = false;
             Admin_Login.Click += Admin_Login_Click;
             // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Cambria", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel1.ForeColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.LinkColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.Location = new Point(119, 263);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(141, 20);
-            linkLabel1.TabIndex = 5;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Forgot Password";
-            linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -194,7 +179,6 @@
             panel2.Controls.Add(panel1);
             panel2.Controls.Add(email);
             panel2.Controls.Add(Admin_Login);
-            panel2.Controls.Add(linkLabel1);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(textBox2);
             panel2.Controls.Add(textBox1);
@@ -232,7 +216,6 @@
         private Panel panel1;
         private Label email;
         private Button Admin_Login;
-        private LinkLabel linkLabel1;
         private Label label3;
         private TextBox textBox2;
         private TextBox textBox1;

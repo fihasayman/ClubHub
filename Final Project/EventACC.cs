@@ -7,14 +7,70 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Final_Project
 {
     public partial class EventACC : Form
     {
+        public static EventACC instance;
+        //Event 1
+        public Label ACC_ETitle1;
+        public Label ACC_EDate;
+        public Label ACC_ETime;
+        public Label ACC_ELocation;
+        public Label ACC_EDescription;
+        public Label ACC_EMaxAttendees;
+        public Label ACC_EVolunteers;
+
+        //Event 2
+        public Label ACC_ETitle2;
+        public Label ACC_EDate2;
+        public Label ACC_ETime2;
+        public Label ACC_ELocation2;
+        public Label ACC_EDescription2;
+        public Label ACC_EMaxAttendees2;
+        public Label ACC_EVolunteers2;
+
+        //Event 3
+        public Label ACC_ETitle3;
+        public Label ACC_EDate3;
+        public Label ACC_ETime3;
+        public Label ACC_ELocation3;
+        public Label ACC_EDescription3;
+        public Label ACC_EMaxAttendees3;
+        public Label ACC_EVolunteers3;
         public EventACC()
         {
             InitializeComponent();
+            instance = this;
+
+            //Event 1
+            ACC_ETitle1 = ACC_Title1;
+            ACC_EDate = ACC_Date1;
+            ACC_ETime = ACC_Time1;
+            ACC_ELocation = ACC_Location1;
+            ACC_EDescription = ACC_Description1;
+            ACC_EMaxAttendees = ACC_Attendees1;
+            ACC_EVolunteers = ACC_Volunteer1;
+
+            //Event 2
+            ACC_ETitle2 = Title2;
+            ACC_EDate2 = Date2;
+            ACC_ETime2 = Time2;
+            ACC_ELocation2 = Location2;
+            ACC_EDescription2 = Description2;
+            ACC_EMaxAttendees2 = Attendees2;
+            ACC_EVolunteers2 = Volunteer2;
+
+            //Event 3
+            ACC_ETitle3 = Title3;
+            ACC_EDate3 = Date3;
+            ACC_ETime3 = Time3;
+            ACC_ELocation3 = Location3;
+            ACC_EMaxAttendees3 = Attendees3;
+            ACC_EVolunteers3 = Volunteer3;
+            ACC_EDescription3 = Description3;
         }
 
         private void cross_Click(object sender, EventArgs e)
@@ -22,18 +78,61 @@ namespace Final_Project
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //EDetailsACC EDACC= new EDetailsACC();
-            // EDACC.Show();
-            // this.Hide();
-        }
 
         private void Goback_Click(object sender, EventArgs e)
         {
             AIUBclub clubPanel = new AIUBclub();
             clubPanel.Show();
             this.Hide();
+        }
+
+        private void EventACC_Load(object sender, EventArgs e)
+        {
+            string university = "AIUB";
+            string club = "ACC";
+            string eventName = "Event 1";
+
+            var ev = EventStore.GetEvent(university, club, eventName);
+            if (ev != null)
+            {
+                ACC_ETitle1.Text = ev.Title;
+                ACC_EDate.Text = ev.Date;
+                ACC_ETime.Text = ev.Time;
+                ACC_ELocation.Text = ev.Location;
+                ACC_EDescription.Text = ev.Description;
+                ACC_EMaxAttendees.Text = ev.MaxAttendees;
+                ACC_EVolunteers.Text = ev.Volunteers;
+            }
+
+
+            var ev2 = EventStore.GetEvent(university, club, "Event 2");
+            if (ev2 != null)
+            {
+                ACC_ETitle2.Text = ev2.Title;
+                ACC_EDate2.Text = ev2.Date;
+                ACC_ETime2.Text = ev2.Time;
+                ACC_ELocation2.Text = ev2.Location;
+                ACC_EDescription2.Text = ev2.Description;
+                ACC_EMaxAttendees2.Text = ev2.MaxAttendees;
+                ACC_EVolunteers2.Text = ev2.Volunteers;
+            }
+
+            var ev3 = EventStore.GetEvent(university, club, "Event 3");
+            if (ev3 != null)
+            {
+                ACC_ETitle3.Text = ev3.Title;
+                ACC_EDate3.Text = ev3.Date;
+                ACC_ETime3.Text = ev3.Time;
+                ACC_ELocation3.Text = ev3.Location;
+                ACC_EDescription3.Text = ev3.Description;
+                ACC_EMaxAttendees3.Text = ev3.MaxAttendees;
+                ACC_EVolunteers3.Text = ev3.Volunteers;
+            }
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

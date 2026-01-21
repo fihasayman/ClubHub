@@ -31,32 +31,54 @@ namespace Final_Project
 
         private void JoinACC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            Session.University = "IUB";
+            Session.Club = "MA";
+            Registration regForm = new Registration();
+            regForm.Show();
             this.Hide();
         }
 
         private void JoinABC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
-            this.Hide();
+            MessageBox.Show("This Club is currently inactive.");
         }
 
         private void JoinADC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            Session.University = "IUB";
+            Session.Club = "HRS";
+            Registration regForm = new Registration();
+            regForm.Show();
             this.Hide();
         }
 
         private void JoinARND_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            MessageBox.Show("This Club is currently inactive.");
+        }
+
+        private void EventIAA_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
+
+        private void EventIPC_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
+
+        private void EventIMA_Click(object sender, EventArgs e)
+        {
+            Event_IMA_User event_IMA_User = new Event_IMA_User();
+            event_IMA_User.Show();
             this.Hide();
         }
 
-       
+        private void EventIHRS_Click(object sender, EventArgs e)
+        {
+            Event_IHRS_User event_IHRS_User = new Event_IHRS_User();
+            event_IHRS_User.Show();
+            this.Hide();
+        }
     }
 }

@@ -22,8 +22,9 @@ namespace Final_Project
             this.Close();
         }
 
-        private void Login_Club(string club)
+        private void Login_Club(string university, string club)
         {
+            Session.University = university;
             Session.Club = club;
 
             if (Session.Role == "President")
@@ -40,10 +41,10 @@ namespace Final_Project
             this.Hide();
         }
 
-        private void LoginACC_Click(object sender, EventArgs e) => Login_Club("ACC");
-        private void LoginABC_Click(object sender, EventArgs e) => Login_Club("ABC");
-        private void LoginADC_Click(object sender, EventArgs e) => Login_Club("ADC");
-        private void LoginARND_Click(object sender, EventArgs e) => Login_Club("ARND");
+        private void LoginACC_Click(object sender, EventArgs e) => Login_Club("AIUB", "ACC");
+        private void LoginABC_Click(object sender, EventArgs e) => Login_Club("AIUB", "ABC");
+        private void LoginADC_Click(object sender, EventArgs e) => Login_Club("AIUB", "ADC");
+        private void LoginARND_Click(object sender, EventArgs e) => Login_Club("AIUB", "ARND");
 
         private void JoinACC_Click(object sender, EventArgs e)
         {
@@ -104,6 +105,11 @@ namespace Final_Project
         private void ViewARND_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
+
+        private void AIUBclub_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

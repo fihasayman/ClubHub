@@ -35,9 +35,6 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label3 = new Label();
-            linkLabel1 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            label1 = new Label();
             Login_president = new Button();
             email = new Label();
             panel1 = new Panel();
@@ -119,44 +116,6 @@
             label3.TabIndex = 4;
             label3.Text = "Login";
             // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Cambria", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel1.ForeColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.LinkColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.Location = new Point(116, 234);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(141, 20);
-            linkLabel1.TabIndex = 5;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Forgot Password";
-            linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Font = new Font("Cambria", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel2.LinkColor = Color.FromArgb(0, 40, 66);
-            linkLabel2.Location = new Point(157, 371);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(66, 20);
-            linkLabel2.TabIndex = 6;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Sign up";
-            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(0, 40, 66);
-            label1.Location = new Point(103, 351);
-            label1.Name = "label1";
-            label1.Size = new Size(175, 20);
-            label1.TabIndex = 7;
-            label1.Text = "Don't have an account?";
-            // 
             // Login_president
             // 
             Login_president.BackColor = Color.FromArgb(0, 40, 66);
@@ -209,9 +168,6 @@
             panel2.Controls.Add(panel1);
             panel2.Controls.Add(email);
             panel2.Controls.Add(Login_president);
-            panel2.Controls.Add(label1);
-            panel2.Controls.Add(linkLabel2);
-            panel2.Controls.Add(linkLabel1);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(textBox2);
             panel2.Controls.Add(textBox1);
@@ -265,9 +221,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label3;
-        private LinkLabel linkLabel1;
-        private LinkLabel linkLabel2;
-        private Label label1;
         private Button Login_president;
         private Label email;
         private Panel panel1;

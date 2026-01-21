@@ -53,10 +53,6 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
-            NSUCount = new Label();
-            IUBCount = new Label();
-            BRACCount = new Label();
-            AIUBCount = new Label();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
@@ -263,7 +259,7 @@
             label2.Name = "label2";
             label2.Size = new Size(68, 21);
             label2.TabIndex = 26;
-            label2.Text = "4 Clubs";
+            label2.Text = "3 Clubs";
             // 
             // label3
             // 
@@ -275,7 +271,7 @@
             label3.Name = "label3";
             label3.Size = new Size(68, 21);
             label3.TabIndex = 27;
-            label3.Text = "2 Clubs";
+            label3.Text = "3 Clubs";
             // 
             // label4
             // 
@@ -287,7 +283,7 @@
             label4.Name = "label4";
             label4.Size = new Size(68, 21);
             label4.TabIndex = 28;
-            label4.Text = "4 Clubs";
+            label4.Text = "2 Clubs";
             // 
             // label5
             // 
@@ -307,7 +303,7 @@
             label6.BackColor = Color.FromArgb(0, 53, 82);
             label6.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(325, 261);
+            label6.Location = new Point(325, 515);
             label6.Name = "label6";
             label6.Size = new Size(53, 18);
             label6.TabIndex = 30;
@@ -319,7 +315,7 @@
             label7.BackColor = Color.FromArgb(0, 53, 82);
             label7.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(612, 261);
+            label7.Location = new Point(612, 515);
             label7.Name = "label7";
             label7.Size = new Size(53, 18);
             label7.TabIndex = 31;
@@ -331,7 +327,7 @@
             label8.BackColor = Color.FromArgb(0, 53, 82);
             label8.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(892, 261);
+            label8.Location = new Point(892, 515);
             label8.Name = "label8";
             label8.Size = new Size(53, 18);
             label8.TabIndex = 32;
@@ -344,59 +340,11 @@
             label9.FlatStyle = FlatStyle.Flat;
             label9.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(1176, 261);
+            label9.Location = new Point(1176, 515);
             label9.Name = "label9";
             label9.Size = new Size(53, 18);
             label9.TabIndex = 33;
             label9.Text = "Active";
-            // 
-            // NSUCount
-            // 
-            NSUCount.AutoSize = true;
-            NSUCount.BackColor = Color.FromArgb(0, 53, 82);
-            NSUCount.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            NSUCount.ForeColor = Color.White;
-            NSUCount.Location = new Point(1133, 513);
-            NSUCount.Name = "NSUCount";
-            NSUCount.Size = new Size(96, 21);
-            NSUCount.TabIndex = 34;
-            NSUCount.Text = "0 Students";
-            // 
-            // IUBCount
-            // 
-            IUBCount.AutoSize = true;
-            IUBCount.BackColor = Color.FromArgb(0, 53, 82);
-            IUBCount.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            IUBCount.ForeColor = Color.White;
-            IUBCount.Location = new Point(849, 513);
-            IUBCount.Name = "IUBCount";
-            IUBCount.Size = new Size(96, 21);
-            IUBCount.TabIndex = 35;
-            IUBCount.Text = "0 Students";
-            // 
-            // BRACCount
-            // 
-            BRACCount.AutoSize = true;
-            BRACCount.BackColor = Color.FromArgb(0, 53, 82);
-            BRACCount.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            BRACCount.ForeColor = Color.White;
-            BRACCount.Location = new Point(569, 513);
-            BRACCount.Name = "BRACCount";
-            BRACCount.Size = new Size(96, 21);
-            BRACCount.TabIndex = 36;
-            BRACCount.Text = "0 Students";
-            // 
-            // AIUBCount
-            // 
-            AIUBCount.AutoSize = true;
-            AIUBCount.BackColor = Color.FromArgb(0, 53, 82);
-            AIUBCount.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            AIUBCount.ForeColor = Color.White;
-            AIUBCount.Location = new Point(282, 513);
-            AIUBCount.Name = "AIUBCount";
-            AIUBCount.Size = new Size(96, 21);
-            AIUBCount.TabIndex = 37;
-            AIUBCount.Text = "0 Students";
             // 
             // label1
             // 
@@ -417,10 +365,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(1393, 708);
-            Controls.Add(AIUBCount);
-            Controls.Add(BRACCount);
-            Controls.Add(IUBCount);
-            Controls.Add(NSUCount);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -487,10 +431,6 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private Label NSUCount;
-        private Label IUBCount;
-        private Label BRACCount;
-        private Label AIUBCount;
         private Label label1;
     }
 }

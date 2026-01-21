@@ -30,6 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IUBuser));
             Goback = new PictureBox();
+            panel1 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            cross = new PictureBox();
+            EventIPC = new Button();
+            JoinARND = new Button();
+            EventIHRS = new Button();
+            JoinADC = new Button();
+            EventIAA = new Button();
+            JoinABC = new Button();
+            EventIMA = new Button();
+            JoinACC = new Button();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            label5 = new Label();
+            label7 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             panel5 = new Panel();
             panel4 = new Panel();
             panel3 = new Panel();
@@ -42,20 +60,6 @@
             IHRS = new Label();
             IAA = new Label();
             IMA = new Label();
-            panel1 = new Panel();
-            label2 = new Label();
-            label1 = new Label();
-            cross = new PictureBox();
-            ViewARND = new Button();
-            JoinARND = new Button();
-            ViewADC = new Button();
-            JoinADC = new Button();
-            ViewABC = new Button();
-            JoinABC = new Button();
-            ViewACC = new Button();
-            JoinACC = new Button();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -72,138 +76,6 @@
             Goback.TabIndex = 138;
             Goback.TabStop = false;
             Goback.Click += Goback_Click;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.White;
-            panel5.ForeColor = SystemColors.ButtonHighlight;
-            panel5.Location = new Point(570, 572);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(420, 2);
-            panel5.TabIndex = 121;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.White;
-            panel4.ForeColor = SystemColors.ButtonHighlight;
-            panel4.Location = new Point(570, 493);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(420, 2);
-            panel4.TabIndex = 120;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.White;
-            panel3.ForeColor = SystemColors.ButtonHighlight;
-            panel3.Location = new Point(570, 406);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(420, 2);
-            panel3.TabIndex = 122;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.Honeydew;
-            label9.Location = new Point(732, 577);
-            label9.Name = "label9";
-            label9.Size = new Size(258, 21);
-            label9.TabIndex = 137;
-            label9.Text = "Independent Photography Club";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.Honeydew;
-            label8.Location = new Point(675, 498);
-            label8.Name = "label8";
-            label8.Size = new Size(315, 21);
-            label8.TabIndex = 136;
-            label8.Text = "Independent Human Resource Society";
-            label8.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // Brac
-            // 
-            Brac.AutoSize = true;
-            Brac.BackColor = Color.Transparent;
-            Brac.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Brac.ForeColor = Color.Honeydew;
-            Brac.Location = new Point(680, 411);
-            Brac.Name = "Brac";
-            Brac.Size = new Size(310, 21);
-            Brac.TabIndex = 135;
-            Brac.Text = "Independent Accounting's Association";
-            Brac.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.ForeColor = SystemColors.ButtonHighlight;
-            panel2.Location = new Point(567, 331);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(420, 2);
-            panel2.TabIndex = 118;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.Honeydew;
-            label6.Location = new Point(692, 336);
-            label6.Name = "label6";
-            label6.Size = new Size(298, 21);
-            label6.TabIndex = 134;
-            label6.Text = "Independent Marketer's Association";
-            label6.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // IPC
-            // 
-            IPC.AutoSize = true;
-            IPC.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            IPC.ForeColor = Color.White;
-            IPC.Location = new Point(567, 541);
-            IPC.Name = "IPC";
-            IPC.Size = new Size(56, 28);
-            IPC.TabIndex = 129;
-            IPC.Text = "IPC";
-            // 
-            // IHRS
-            // 
-            IHRS.AutoSize = true;
-            IHRS.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            IHRS.ForeColor = Color.White;
-            IHRS.Location = new Point(564, 462);
-            IHRS.Name = "IHRS";
-            IHRS.Size = new Size(75, 28);
-            IHRS.TabIndex = 128;
-            IHRS.Text = "IHRS";
-            // 
-            // IAA
-            // 
-            IAA.AutoSize = true;
-            IAA.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            IAA.ForeColor = Color.White;
-            IAA.Location = new Point(564, 375);
-            IAA.Name = "IAA";
-            IAA.Size = new Size(58, 28);
-            IAA.TabIndex = 127;
-            IAA.Text = "IAA";
-            // 
-            // IMA
-            // 
-            IMA.AutoSize = true;
-            IMA.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            IMA.ForeColor = Color.White;
-            IMA.Location = new Point(564, 300);
-            IMA.Name = "IMA";
-            IMA.Size = new Size(63, 28);
-            IMA.TabIndex = 123;
-            IMA.Text = "IMA";
             // 
             // panel1
             // 
@@ -250,21 +122,22 @@
             cross.TabStop = false;
             cross.Click += cross_Click;
             // 
-            // ViewARND
+            // EventIPC
             // 
-            ViewARND.BackColor = Color.FromArgb(222, 238, 246);
-            ViewARND.Cursor = Cursors.Hand;
-            ViewARND.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewARND.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewARND.FlatStyle = FlatStyle.Flat;
-            ViewARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewARND.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewARND.Location = new Point(1173, 548);
-            ViewARND.Name = "ViewARND";
-            ViewARND.Size = new Size(124, 50);
-            ViewARND.TabIndex = 146;
-            ViewARND.Text = "View";
-            ViewARND.UseVisualStyleBackColor = false;
+            EventIPC.BackColor = Color.FromArgb(222, 238, 246);
+            EventIPC.Cursor = Cursors.Hand;
+            EventIPC.FlatAppearance.MouseDownBackColor = Color.White;
+            EventIPC.FlatAppearance.MouseOverBackColor = Color.White;
+            EventIPC.FlatStyle = FlatStyle.Flat;
+            EventIPC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventIPC.ForeColor = Color.FromArgb(0, 40, 66);
+            EventIPC.Location = new Point(1173, 548);
+            EventIPC.Name = "EventIPC";
+            EventIPC.Size = new Size(124, 50);
+            EventIPC.TabIndex = 146;
+            EventIPC.Text = "Event";
+            EventIPC.UseVisualStyleBackColor = false;
+            EventIPC.Click += EventIPC_Click;
             // 
             // JoinARND
             // 
@@ -283,21 +156,22 @@
             JoinARND.UseVisualStyleBackColor = false;
             JoinARND.Click += JoinARND_Click;
             // 
-            // ViewADC
+            // EventIHRS
             // 
-            ViewADC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewADC.Cursor = Cursors.Hand;
-            ViewADC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewADC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewADC.FlatStyle = FlatStyle.Flat;
-            ViewADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewADC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewADC.Location = new Point(1173, 469);
-            ViewADC.Name = "ViewADC";
-            ViewADC.Size = new Size(124, 50);
-            ViewADC.TabIndex = 144;
-            ViewADC.Text = "View";
-            ViewADC.UseVisualStyleBackColor = false;
+            EventIHRS.BackColor = Color.FromArgb(222, 238, 246);
+            EventIHRS.Cursor = Cursors.Hand;
+            EventIHRS.FlatAppearance.MouseDownBackColor = Color.White;
+            EventIHRS.FlatAppearance.MouseOverBackColor = Color.White;
+            EventIHRS.FlatStyle = FlatStyle.Flat;
+            EventIHRS.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventIHRS.ForeColor = Color.FromArgb(0, 40, 66);
+            EventIHRS.Location = new Point(1173, 469);
+            EventIHRS.Name = "EventIHRS";
+            EventIHRS.Size = new Size(124, 50);
+            EventIHRS.TabIndex = 144;
+            EventIHRS.Text = "Event";
+            EventIHRS.UseVisualStyleBackColor = false;
+            EventIHRS.Click += EventIHRS_Click;
             // 
             // JoinADC
             // 
@@ -316,21 +190,22 @@
             JoinADC.UseVisualStyleBackColor = false;
             JoinADC.Click += JoinADC_Click;
             // 
-            // ViewABC
+            // EventIAA
             // 
-            ViewABC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewABC.Cursor = Cursors.Hand;
-            ViewABC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewABC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewABC.FlatStyle = FlatStyle.Flat;
-            ViewABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewABC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewABC.Location = new Point(1173, 382);
-            ViewABC.Name = "ViewABC";
-            ViewABC.Size = new Size(124, 50);
-            ViewABC.TabIndex = 142;
-            ViewABC.Text = "View";
-            ViewABC.UseVisualStyleBackColor = false;
+            EventIAA.BackColor = Color.FromArgb(222, 238, 246);
+            EventIAA.Cursor = Cursors.Hand;
+            EventIAA.FlatAppearance.MouseDownBackColor = Color.White;
+            EventIAA.FlatAppearance.MouseOverBackColor = Color.White;
+            EventIAA.FlatStyle = FlatStyle.Flat;
+            EventIAA.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventIAA.ForeColor = Color.FromArgb(0, 40, 66);
+            EventIAA.Location = new Point(1173, 382);
+            EventIAA.Name = "EventIAA";
+            EventIAA.Size = new Size(124, 50);
+            EventIAA.TabIndex = 142;
+            EventIAA.Text = "Event";
+            EventIAA.UseVisualStyleBackColor = false;
+            EventIAA.Click += EventIAA_Click;
             // 
             // JoinABC
             // 
@@ -349,21 +224,22 @@
             JoinABC.UseVisualStyleBackColor = false;
             JoinABC.Click += JoinABC_Click;
             // 
-            // ViewACC
+            // EventIMA
             // 
-            ViewACC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewACC.Cursor = Cursors.Hand;
-            ViewACC.FlatAppearance.MouseDownBackColor = Color.White;
-            ViewACC.FlatAppearance.MouseOverBackColor = Color.White;
-            ViewACC.FlatStyle = FlatStyle.Flat;
-            ViewACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewACC.ForeColor = Color.FromArgb(0, 40, 66);
-            ViewACC.Location = new Point(1173, 300);
-            ViewACC.Name = "ViewACC";
-            ViewACC.Size = new Size(124, 50);
-            ViewACC.TabIndex = 140;
-            ViewACC.Text = "View";
-            ViewACC.UseVisualStyleBackColor = false;
+            EventIMA.BackColor = Color.FromArgb(222, 238, 246);
+            EventIMA.Cursor = Cursors.Hand;
+            EventIMA.FlatAppearance.MouseDownBackColor = Color.White;
+            EventIMA.FlatAppearance.MouseOverBackColor = Color.White;
+            EventIMA.FlatStyle = FlatStyle.Flat;
+            EventIMA.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventIMA.ForeColor = Color.FromArgb(0, 40, 66);
+            EventIMA.Location = new Point(1173, 300);
+            EventIMA.Name = "EventIMA";
+            EventIMA.Size = new Size(124, 50);
+            EventIMA.TabIndex = 140;
+            EventIMA.Text = "Event";
+            EventIMA.UseVisualStyleBackColor = false;
+            EventIMA.Click += EventIMA_Click;
             // 
             // JoinACC
             // 
@@ -402,23 +278,200 @@
             pictureBox2.TabIndex = 148;
             pictureBox2.TabStop = false;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Tomato;
+            label5.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.FromArgb(0, 40, 66);
+            label5.Location = new Point(898, 554);
+            label5.Name = "label5";
+            label5.Size = new Size(82, 21);
+            label5.TabIndex = 164;
+            label5.Text = "Inactive";
+            label5.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Tomato;
+            label7.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.FromArgb(0, 40, 66);
+            label7.Location = new Point(898, 388);
+            label7.Name = "label7";
+            label7.Size = new Size(82, 21);
+            label7.TabIndex = 163;
+            label7.Text = "Inactive";
+            label7.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.LightGreen;
+            label4.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.FromArgb(0, 40, 66);
+            label4.Location = new Point(914, 475);
+            label4.Name = "label4";
+            label4.Size = new Size(66, 21);
+            label4.TabIndex = 162;
+            label4.Text = "Active";
+            label4.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.LightGreen;
+            label3.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(0, 40, 66);
+            label3.Location = new Point(914, 306);
+            label3.Name = "label3";
+            label3.Size = new Size(66, 21);
+            label3.TabIndex = 161;
+            label3.Text = "Active";
+            label3.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.White;
+            panel5.ForeColor = Color.White;
+            panel5.Location = new Point(560, 579);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(420, 2);
+            panel5.TabIndex = 151;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.White;
+            panel4.ForeColor = Color.White;
+            panel4.Location = new Point(563, 500);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(420, 2);
+            panel4.TabIndex = 150;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.ForeColor = Color.White;
+            panel3.Location = new Point(563, 413);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(420, 2);
+            panel3.TabIndex = 152;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.FromArgb(222, 238, 246);
+            label9.Location = new Point(722, 579);
+            label9.Name = "label9";
+            label9.Size = new Size(258, 21);
+            label9.TabIndex = 160;
+            label9.Text = "Independent Photography Club";
+            label9.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.FromArgb(222, 238, 246);
+            label8.Location = new Point(668, 505);
+            label8.Name = "label8";
+            label8.Size = new Size(315, 21);
+            label8.TabIndex = 159;
+            label8.Text = "Independent Human Resource Society";
+            label8.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // Brac
+            // 
+            Brac.AutoSize = true;
+            Brac.BackColor = Color.Transparent;
+            Brac.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Brac.ForeColor = Color.FromArgb(222, 238, 246);
+            Brac.Location = new Point(670, 418);
+            Brac.Name = "Brac";
+            Brac.Size = new Size(310, 21);
+            Brac.TabIndex = 158;
+            Brac.Text = "Independent Accounting's Association";
+            Brac.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.ForeColor = Color.White;
+            panel2.Location = new Point(560, 331);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(420, 2);
+            panel2.TabIndex = 149;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.FromArgb(222, 238, 246);
+            label6.Location = new Point(682, 336);
+            label6.Name = "label6";
+            label6.Size = new Size(298, 21);
+            label6.TabIndex = 157;
+            label6.Text = "Independent Marketer's Association";
+            label6.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // IPC
+            // 
+            IPC.AutoSize = true;
+            IPC.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            IPC.ForeColor = Color.White;
+            IPC.Location = new Point(560, 548);
+            IPC.Name = "IPC";
+            IPC.Size = new Size(56, 28);
+            IPC.TabIndex = 156;
+            IPC.Text = "IPC";
+            // 
+            // IHRS
+            // 
+            IHRS.AutoSize = true;
+            IHRS.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            IHRS.ForeColor = Color.White;
+            IHRS.Location = new Point(557, 469);
+            IHRS.Name = "IHRS";
+            IHRS.Size = new Size(75, 28);
+            IHRS.TabIndex = 155;
+            IHRS.Text = "IHRS";
+            // 
+            // IAA
+            // 
+            IAA.AutoSize = true;
+            IAA.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            IAA.ForeColor = Color.White;
+            IAA.Location = new Point(557, 382);
+            IAA.Name = "IAA";
+            IAA.Size = new Size(58, 28);
+            IAA.TabIndex = 154;
+            IAA.Text = "IAA";
+            // 
+            // IMA
+            // 
+            IMA.AutoSize = true;
+            IMA.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            IMA.ForeColor = Color.White;
+            IMA.Location = new Point(557, 300);
+            IMA.Name = "IMA";
+            IMA.Size = new Size(63, 28);
+            IMA.TabIndex = 153;
+            IMA.Text = "IMA";
+            // 
             // IUBuser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(1393, 708);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(ViewARND);
-            Controls.Add(JoinARND);
-            Controls.Add(ViewADC);
-            Controls.Add(JoinADC);
-            Controls.Add(ViewABC);
-            Controls.Add(JoinABC);
-            Controls.Add(ViewACC);
-            Controls.Add(JoinACC);
-            Controls.Add(Goback);
+            Controls.Add(label5);
+            Controls.Add(label7);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -431,6 +484,17 @@
             Controls.Add(IHRS);
             Controls.Add(IAA);
             Controls.Add(IMA);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Controls.Add(EventIPC);
+            Controls.Add(JoinARND);
+            Controls.Add(EventIHRS);
+            Controls.Add(JoinADC);
+            Controls.Add(EventIAA);
+            Controls.Add(JoinABC);
+            Controls.Add(EventIMA);
+            Controls.Add(JoinACC);
+            Controls.Add(Goback);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -450,6 +514,24 @@
         #endregion
 
         private PictureBox Goback;
+        private Panel panel1;
+        private Label label2;
+        private Label label1;
+        private PictureBox cross;
+        private Button EventIPC;
+        private Button JoinARND;
+        private Button EventIHRS;
+        private Button JoinADC;
+        private Button EventIAA;
+        private Button JoinABC;
+        private Button EventIMA;
+        private Button JoinACC;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Label label5;
+        private Label label7;
+        private Label label4;
+        private Label label3;
         private Panel panel5;
         private Panel panel4;
         private Panel panel3;
@@ -462,19 +544,5 @@
         private Label IHRS;
         private Label IAA;
         private Label IMA;
-        private Panel panel1;
-        private Label label2;
-        private Label label1;
-        private PictureBox cross;
-        private Button ViewARND;
-        private Button JoinARND;
-        private Button ViewADC;
-        private Button JoinADC;
-        private Button ViewABC;
-        private Button JoinABC;
-        private Button ViewACC;
-        private Button JoinACC;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
     }
 }

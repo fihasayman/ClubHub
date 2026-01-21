@@ -42,20 +42,16 @@
             Cancel = new Button();
             cross = new PictureBox();
             Event_title = new TextBox();
-            Location = new TextBox();
-            Description = new TextBox();
-            Max_Atten = new TextBox();
-            Volunteer = new TextBox();
+            Location2 = new TextBox();
+            Description2 = new TextBox();
+            Max_Attendees2 = new TextBox();
+            Volunteer2 = new TextBox();
             panel1 = new Panel();
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
             S_date = new DateTimePicker();
             S_time = new DateTimePicker();
-            E_date = new DateTimePicker();
-            label9 = new Label();
-            E_time = new DateTimePicker();
-            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             SuspendLayout();
             // 
@@ -106,9 +102,9 @@
             label3.ForeColor = Color.White;
             label3.Location = new Point(43, 203);
             label3.Name = "label3";
-            label3.Size = new Size(101, 23);
+            label3.Size = new Size(53, 23);
             label3.TabIndex = 41;
-            label3.Text = "Start Date";
+            label3.Text = "Date";
             label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label2
@@ -119,9 +115,9 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(404, 203);
             label2.Name = "label2";
-            label2.Size = new Size(106, 23);
+            label2.Size = new Size(58, 23);
             label2.TabIndex = 43;
-            label2.Text = "Start Time";
+            label2.Text = "Time";
             label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label5
@@ -228,53 +224,53 @@
             Event_title.Size = new Size(686, 27);
             Event_title.TabIndex = 55;
             // 
-            // Location
+            // Location2
             // 
-            Location.BackColor = Color.FromArgb(0, 53, 82);
-            Location.BorderStyle = BorderStyle.None;
-            Location.Font = new Font("Cambria", 12F);
-            Location.ForeColor = Color.White;
-            Location.Location = new Point(43, 313);
-            Location.Multiline = true;
-            Location.Name = "Location";
-            Location.Size = new Size(686, 27);
-            Location.TabIndex = 58;
+            Location2.BackColor = Color.FromArgb(0, 53, 82);
+            Location2.BorderStyle = BorderStyle.None;
+            Location2.Font = new Font("Cambria", 12F);
+            Location2.ForeColor = Color.White;
+            Location2.Location = new Point(43, 313);
+            Location2.Multiline = true;
+            Location2.Name = "Location2";
+            Location2.Size = new Size(686, 27);
+            Location2.TabIndex = 58;
             // 
-            // Description
+            // Description2
             // 
-            Description.BackColor = Color.FromArgb(0, 53, 82);
-            Description.BorderStyle = BorderStyle.None;
-            Description.Font = new Font("Cambria", 12F);
-            Description.ForeColor = Color.White;
-            Description.Location = new Point(43, 400);
-            Description.Multiline = true;
-            Description.Name = "Description";
-            Description.Size = new Size(686, 68);
-            Description.TabIndex = 59;
+            Description2.BackColor = Color.FromArgb(0, 53, 82);
+            Description2.BorderStyle = BorderStyle.None;
+            Description2.Font = new Font("Cambria", 12F);
+            Description2.ForeColor = Color.White;
+            Description2.Location = new Point(43, 400);
+            Description2.Multiline = true;
+            Description2.Name = "Description2";
+            Description2.Size = new Size(686, 68);
+            Description2.TabIndex = 59;
             // 
-            // Max_Atten
+            // Max_Attendees2
             // 
-            Max_Atten.BackColor = Color.FromArgb(0, 53, 82);
-            Max_Atten.BorderStyle = BorderStyle.None;
-            Max_Atten.Font = new Font("Cambria", 12F);
-            Max_Atten.ForeColor = Color.White;
-            Max_Atten.Location = new Point(43, 516);
-            Max_Atten.Multiline = true;
-            Max_Atten.Name = "Max_Atten";
-            Max_Atten.Size = new Size(325, 27);
-            Max_Atten.TabIndex = 60;
+            Max_Attendees2.BackColor = Color.FromArgb(0, 53, 82);
+            Max_Attendees2.BorderStyle = BorderStyle.None;
+            Max_Attendees2.Font = new Font("Cambria", 12F);
+            Max_Attendees2.ForeColor = Color.White;
+            Max_Attendees2.Location = new Point(43, 516);
+            Max_Attendees2.Multiline = true;
+            Max_Attendees2.Name = "Max_Attendees2";
+            Max_Attendees2.Size = new Size(325, 27);
+            Max_Attendees2.TabIndex = 60;
             // 
-            // Volunteer
+            // Volunteer2
             // 
-            Volunteer.BackColor = Color.FromArgb(0, 53, 82);
-            Volunteer.BorderStyle = BorderStyle.None;
-            Volunteer.Font = new Font("Cambria", 12F);
-            Volunteer.ForeColor = Color.White;
-            Volunteer.Location = new Point(404, 516);
-            Volunteer.Multiline = true;
-            Volunteer.Name = "Volunteer";
-            Volunteer.Size = new Size(325, 27);
-            Volunteer.TabIndex = 61;
+            Volunteer2.BackColor = Color.FromArgb(0, 53, 82);
+            Volunteer2.BorderStyle = BorderStyle.None;
+            Volunteer2.Font = new Font("Cambria", 12F);
+            Volunteer2.ForeColor = Color.White;
+            Volunteer2.Location = new Point(404, 516);
+            Volunteer2.Multiline = true;
+            Volunteer2.Name = "Volunteer2";
+            Volunteer2.Size = new Size(325, 27);
+            Volunteer2.TabIndex = 61;
             // 
             // panel1
             // 
@@ -324,7 +320,7 @@
             S_date.MaxDate = new DateTime(2028, 12, 31, 0, 0, 0, 0);
             S_date.MinDate = new DateTime(2023, 1, 1, 0, 0, 0, 0);
             S_date.Name = "S_date";
-            S_date.Size = new Size(156, 29);
+            S_date.Size = new Size(325, 29);
             S_date.TabIndex = 66;
             // 
             // S_time
@@ -336,65 +332,8 @@
             S_time.Location = new Point(404, 225);
             S_time.Name = "S_time";
             S_time.ShowUpDown = true;
-            S_time.Size = new Size(156, 29);
+            S_time.Size = new Size(325, 29);
             S_time.TabIndex = 67;
-            // 
-            // E_date
-            // 
-            E_date.CalendarFont = new Font("Cambria", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_date.CalendarForeColor = Color.SteelBlue;
-            E_date.CalendarMonthBackground = Color.FromArgb(128, 128, 255);
-            E_date.CalendarTitleBackColor = Color.FromArgb(255, 128, 255);
-            E_date.CalendarTitleForeColor = Color.FromArgb(192, 192, 255);
-            E_date.CalendarTrailingForeColor = Color.FromArgb(128, 128, 255);
-            E_date.Cursor = Cursors.Hand;
-            E_date.CustomFormat = " dd MMM yyyy";
-            E_date.Font = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_date.Format = DateTimePickerFormat.Custom;
-            E_date.Location = new Point(216, 225);
-            E_date.MaxDate = new DateTime(2028, 12, 31, 0, 0, 0, 0);
-            E_date.MinDate = new DateTime(2023, 1, 1, 0, 0, 0, 0);
-            E_date.Name = "E_date";
-            E_date.Size = new Size(156, 29);
-            E_date.TabIndex = 68;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(216, 203);
-            label9.Name = "label9";
-            label9.Size = new Size(93, 23);
-            label9.TabIndex = 69;
-            label9.Text = "End Date";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // E_time
-            // 
-            E_time.CalendarFont = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_time.CustomFormat = " hh:mm tt";
-            E_time.Font = new Font("Cambria", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            E_time.Format = DateTimePickerFormat.Custom;
-            E_time.Location = new Point(573, 225);
-            E_time.Name = "E_time";
-            E_time.ShowUpDown = true;
-            E_time.Size = new Size(156, 29);
-            E_time.TabIndex = 70;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.Transparent;
-            label10.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(573, 203);
-            label10.Name = "label10";
-            label10.Size = new Size(98, 23);
-            label10.TabIndex = 71;
-            label10.Text = "End Time";
-            label10.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // Edit_Event
             // 
@@ -402,20 +341,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(780, 650);
-            Controls.Add(label10);
-            Controls.Add(E_time);
-            Controls.Add(label9);
-            Controls.Add(E_date);
             Controls.Add(S_time);
             Controls.Add(S_date);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(Volunteer);
-            Controls.Add(Max_Atten);
-            Controls.Add(Description);
-            Controls.Add(Location);
+            Controls.Add(Volunteer2);
+            Controls.Add(Max_Attendees2);
+            Controls.Add(Description2);
+            Controls.Add(Location2);
             Controls.Add(Event_title);
             Controls.Add(cross);
             Controls.Add(Save);
@@ -448,13 +383,13 @@
         private Label label3;
         private TextBox textBox2;
         private Label label2;
-        private TextBox Location;
+        private TextBox Location2;
         private Label label5;
-        private TextBox Description;
+        private TextBox Description2;
         private Label label6;
-        private TextBox Max_Atten;
+        private TextBox Max_Attendees2;
         private Label label7;
-        private TextBox Volunteer;
+        private TextBox Volunteer2;
         private Label label8;
         private TextBox textBox7;
         private Button Save;
@@ -469,9 +404,5 @@
         private DateTimePicker dateTimePicker2;
         private DateTimePicker S_date;
         private DateTimePicker S_time;
-        private DateTimePicker E_date;
-        private Label label9;
-        private DateTimePicker E_time;
-        private Label label10;
     }
 }

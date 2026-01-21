@@ -45,20 +45,31 @@ namespace Final_Project
 
         private void Add_Event2_Click(object sender, EventArgs e)
         {
-            Add_Event_ABC add_event_win = new Add_Event_ABC();
-            add_event_win.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
         }
 
         private void Edit2_Click(object sender, EventArgs e)
         {
-            Edit2_Event_ABC edit2_event_ = new Edit2_Event_ABC();
-            edit2_event_.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
         }
 
         private void EditABC_Click(object sender, EventArgs e)
         {
-            Edit_Event_ABC edit_event_= new Edit_Event_ABC();
-            edit_event_.ShowDialog();
+            MessageBox.Show("This feature is currently unavailable.");
+        }
+
+        private void Activity_ABC_1_Click(object sender, EventArgs e)
+        {
+            Activity_ABC Activity_ABC = new Activity_ABC();
+            Activity_ABC.Show();
+            this.Hide();
+        }
+
+        private void Activity_ABC_2_Click(object sender, EventArgs e)
+        {
+            Activity_ABC_2 activity_ABC_2 = new Activity_ABC_2();
+            activity_ABC_2.Show();
+            this.Hide();
         }
     }
 

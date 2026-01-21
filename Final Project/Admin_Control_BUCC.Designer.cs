@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_Control_BUCC));
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             label4 = new Label();
             label3 = new Label();
             BUBC_Pre = new Button();
@@ -215,6 +215,7 @@
             Load_Pre_ACC.Text = "Load Presidents";
             Load_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Load_Pre_ACC.UseVisualStyleBackColor = false;
+            Load_Pre_ACC.Click += Load_Pre_ACC_Click;
             // 
             // Update_Mem
             // 
@@ -230,6 +231,7 @@
             Update_Mem.Text = "Update President";
             Update_Mem.TextAlign = ContentAlignment.MiddleRight;
             Update_Mem.UseVisualStyleBackColor = false;
+            Update_Mem.Click += Update_Mem_Click;
             // 
             // pictureBox2
             // 
@@ -256,6 +258,7 @@
             Remove_Pre_ACC.Text = "Remove President";
             Remove_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Remove_Pre_ACC.UseVisualStyleBackColor = false;
+            Remove_Pre_ACC.Click += Remove_Pre_ACC_Click;
             // 
             // pictureBox1
             // 
@@ -282,6 +285,7 @@
             Add_Pre_ACC.Text = "Add President";
             Add_Pre_ACC.TextAlign = ContentAlignment.MiddleRight;
             Add_Pre_ACC.UseVisualStyleBackColor = false;
+            Add_Pre_ACC.Click += Add_Pre_ACC_Click;
             // 
             // GridViewMem
             // 
@@ -289,14 +293,14 @@
             GridViewMem.BorderStyle = BorderStyle.Fixed3D;
             GridViewMem.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GridViewMem.Cursor = Cursors.Hand;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(0, 53, 82);
-            dataGridViewCellStyle2.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = Color.FromArgb(222, 238, 246);
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(222, 238, 246);
-            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(0, 40, 66);
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            GridViewMem.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(0, 53, 82);
+            dataGridViewCellStyle1.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(222, 238, 246);
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(222, 238, 246);
+            dataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(0, 40, 66);
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            GridViewMem.DefaultCellStyle = dataGridViewCellStyle1;
             GridViewMem.GridColor = Color.FromArgb(0, 53, 82);
             GridViewMem.Location = new Point(396, 151);
             GridViewMem.Name = "GridViewMem";

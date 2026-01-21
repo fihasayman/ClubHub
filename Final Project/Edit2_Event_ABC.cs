@@ -32,5 +32,10 @@ namespace Final_Project
         {
             this.Close();
         }
+
+        private void S_date_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

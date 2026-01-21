@@ -30,6 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AIUBuser));
             Goback = new PictureBox();
+            EventARND = new Button();
+            JoinARND = new Button();
+            EventADC = new Button();
+            JoinADC = new Button();
+            EventABC = new Button();
+            JoinABC = new Button();
+            EventACC = new Button();
+            JoinACC = new Button();
+            panel1 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            cross = new PictureBox();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            label14 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label10 = new Label();
             panel5 = new Panel();
             panel4 = new Panel();
             panel3 = new Panel();
@@ -41,21 +59,7 @@
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
-            ViewARND = new Button();
-            JoinARND = new Button();
-            ViewADC = new Button();
-            JoinADC = new Button();
-            ViewABC = new Button();
-            JoinABC = new Button();
             ACC = new Label();
-            ViewACC = new Button();
-            JoinACC = new Button();
-            panel1 = new Panel();
-            label2 = new Label();
-            label1 = new Label();
-            cross = new PictureBox();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -73,141 +77,20 @@
             Goback.TabStop = false;
             Goback.Click += Goback_Click;
             // 
-            // panel5
+            // EventARND
             // 
-            panel5.BackColor = Color.White;
-            panel5.ForeColor = Color.White;
-            panel5.Location = new Point(570, 572);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(420, 2);
-            panel5.TabIndex = 44;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.White;
-            panel4.ForeColor = Color.White;
-            panel4.Location = new Point(570, 493);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(420, 2);
-            panel4.TabIndex = 43;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.White;
-            panel3.ForeColor = Color.White;
-            panel3.Location = new Point(570, 406);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(420, 2);
-            panel3.TabIndex = 45;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(672, 577);
-            label9.Name = "label9";
-            label9.Size = new Size(318, 21);
-            label9.TabIndex = 63;
-            label9.Text = "AIUB Research and Development Club";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(832, 498);
-            label8.Name = "label8";
-            label8.Size = new Size(155, 21);
-            label8.TabIndex = 62;
-            label8.Text = "AIUB Drama Club";
-            label8.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.Transparent;
-            label7.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.FromArgb(222, 238, 246);
-            label7.Location = new Point(816, 411);
-            label7.Name = "label7";
-            label7.Size = new Size(171, 21);
-            label7.TabIndex = 61;
-            label7.Text = "AIUB Business Club";
-            label7.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.ForeColor = Color.White;
-            panel2.Location = new Point(567, 326);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(420, 2);
-            panel2.TabIndex = 41;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.FromArgb(222, 238, 246);
-            label6.Location = new Point(806, 331);
-            label6.Name = "label6";
-            label6.Size = new Size(181, 21);
-            label6.TabIndex = 60;
-            label6.Text = "AIUB Computer Club";
-            label6.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(570, 541);
-            label5.Name = "label5";
-            label5.Size = new Size(87, 28);
-            label5.TabIndex = 55;
-            label5.Text = "ARND";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(567, 462);
-            label4.Name = "label4";
-            label4.Size = new Size(67, 28);
-            label4.TabIndex = 54;
-            label4.Text = "ADC";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century", 13.8F, FontStyle.Bold);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(567, 377);
-            label3.Name = "label3";
-            label3.Size = new Size(66, 28);
-            label3.TabIndex = 53;
-            label3.Text = "ABC";
-            // 
-            // ViewARND
-            // 
-            ViewARND.BackColor = Color.FromArgb(222, 238, 246);
-            ViewARND.Cursor = Cursors.Hand;
-            ViewARND.FlatStyle = FlatStyle.Flat;
-            ViewARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewARND.ForeColor = Color.FromArgb(13, 34, 21);
-            ViewARND.Location = new Point(1173, 548);
-            ViewARND.Name = "ViewARND";
-            ViewARND.Size = new Size(124, 50);
-            ViewARND.TabIndex = 52;
-            ViewARND.Text = "View";
-            ViewARND.UseVisualStyleBackColor = false;
-            ViewARND.Click += ViewARND_Click;
+            EventARND.BackColor = Color.FromArgb(222, 238, 246);
+            EventARND.Cursor = Cursors.Hand;
+            EventARND.FlatStyle = FlatStyle.Flat;
+            EventARND.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventARND.ForeColor = Color.FromArgb(13, 34, 21);
+            EventARND.Location = new Point(1173, 548);
+            EventARND.Name = "EventARND";
+            EventARND.Size = new Size(124, 50);
+            EventARND.TabIndex = 52;
+            EventARND.Text = "Event";
+            EventARND.UseVisualStyleBackColor = false;
+            EventARND.Click += ViewARND_Click;
             // 
             // JoinARND
             // 
@@ -224,19 +107,20 @@
             JoinARND.UseVisualStyleBackColor = false;
             JoinARND.Click += JoinARND_Click;
             // 
-            // ViewADC
+            // EventADC
             // 
-            ViewADC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewADC.Cursor = Cursors.Hand;
-            ViewADC.FlatStyle = FlatStyle.Flat;
-            ViewADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewADC.ForeColor = Color.FromArgb(13, 34, 21);
-            ViewADC.Location = new Point(1173, 466);
-            ViewADC.Name = "ViewADC";
-            ViewADC.Size = new Size(124, 50);
-            ViewADC.TabIndex = 50;
-            ViewADC.Text = "View";
-            ViewADC.UseVisualStyleBackColor = false;
+            EventADC.BackColor = Color.FromArgb(222, 238, 246);
+            EventADC.Cursor = Cursors.Hand;
+            EventADC.FlatStyle = FlatStyle.Flat;
+            EventADC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventADC.ForeColor = Color.FromArgb(13, 34, 21);
+            EventADC.Location = new Point(1173, 466);
+            EventADC.Name = "EventADC";
+            EventADC.Size = new Size(124, 50);
+            EventADC.TabIndex = 50;
+            EventADC.Text = "Event";
+            EventADC.UseVisualStyleBackColor = false;
+            EventADC.Click += EventADC_Click;
             // 
             // JoinADC
             // 
@@ -253,19 +137,20 @@
             JoinADC.UseVisualStyleBackColor = false;
             JoinADC.Click += JoinADC_Click;
             // 
-            // ViewABC
+            // EventABC
             // 
-            ViewABC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewABC.Cursor = Cursors.Hand;
-            ViewABC.FlatStyle = FlatStyle.Flat;
-            ViewABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewABC.ForeColor = Color.FromArgb(13, 34, 21);
-            ViewABC.Location = new Point(1173, 382);
-            ViewABC.Name = "ViewABC";
-            ViewABC.Size = new Size(124, 50);
-            ViewABC.TabIndex = 48;
-            ViewABC.Text = "View";
-            ViewABC.UseVisualStyleBackColor = false;
+            EventABC.BackColor = Color.FromArgb(222, 238, 246);
+            EventABC.Cursor = Cursors.Hand;
+            EventABC.FlatStyle = FlatStyle.Flat;
+            EventABC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventABC.ForeColor = Color.FromArgb(13, 34, 21);
+            EventABC.Location = new Point(1173, 382);
+            EventABC.Name = "EventABC";
+            EventABC.Size = new Size(124, 50);
+            EventABC.TabIndex = 48;
+            EventABC.Text = "Event";
+            EventABC.UseVisualStyleBackColor = false;
+            EventABC.Click += EventABC_Click;
             // 
             // JoinABC
             // 
@@ -282,31 +167,20 @@
             JoinABC.UseVisualStyleBackColor = false;
             JoinABC.Click += JoinABC_Click;
             // 
-            // ACC
+            // EventACC
             // 
-            ACC.AutoSize = true;
-            ACC.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ACC.ForeColor = Color.White;
-            ACC.Location = new Point(564, 295);
-            ACC.Name = "ACC";
-            ACC.Size = new Size(66, 28);
-            ACC.TabIndex = 46;
-            ACC.Text = "ACC";
-            // 
-            // ViewACC
-            // 
-            ViewACC.BackColor = Color.FromArgb(222, 238, 246);
-            ViewACC.Cursor = Cursors.Hand;
-            ViewACC.FlatStyle = FlatStyle.Flat;
-            ViewACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ViewACC.ForeColor = Color.FromArgb(13, 34, 21);
-            ViewACC.Location = new Point(1173, 300);
-            ViewACC.Name = "ViewACC";
-            ViewACC.Size = new Size(124, 50);
-            ViewACC.TabIndex = 42;
-            ViewACC.Text = "View";
-            ViewACC.UseVisualStyleBackColor = false;
-            ViewACC.Click += ViewACC_Click;
+            EventACC.BackColor = Color.FromArgb(222, 238, 246);
+            EventACC.Cursor = Cursors.Hand;
+            EventACC.FlatStyle = FlatStyle.Flat;
+            EventACC.Font = new Font("Century", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EventACC.ForeColor = Color.FromArgb(13, 34, 21);
+            EventACC.Location = new Point(1173, 300);
+            EventACC.Name = "EventACC";
+            EventACC.Size = new Size(124, 50);
+            EventACC.TabIndex = 42;
+            EventACC.Text = "Event";
+            EventACC.UseVisualStyleBackColor = false;
+            EventACC.Click += ViewACC_Click;
             // 
             // JoinACC
             // 
@@ -388,14 +262,200 @@
             pictureBox2.TabIndex = 66;
             pictureBox2.TabStop = false;
             // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.LightGreen;
+            label14.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.FromArgb(0, 40, 66);
+            label14.Location = new Point(924, 307);
+            label14.Name = "label14";
+            label14.Size = new Size(66, 21);
+            label14.TabIndex = 111;
+            label14.Text = "Active";
+            label14.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.LightGreen;
+            label11.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.FromArgb(0, 40, 66);
+            label11.Location = new Point(924, 473);
+            label11.Name = "label11";
+            label11.Size = new Size(66, 21);
+            label11.TabIndex = 110;
+            label11.Text = "Active";
+            label11.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.LightGreen;
+            label12.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.ForeColor = Color.FromArgb(0, 40, 66);
+            label12.Location = new Point(924, 386);
+            label12.Name = "label12";
+            label12.Size = new Size(66, 21);
+            label12.TabIndex = 109;
+            label12.Text = "Active";
+            label12.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = Color.Tomato;
+            label10.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.FromArgb(0, 40, 66);
+            label10.Location = new Point(908, 553);
+            label10.Name = "label10";
+            label10.Size = new Size(82, 21);
+            label10.TabIndex = 108;
+            label10.Text = "Inactive";
+            label10.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.White;
+            panel5.ForeColor = Color.White;
+            panel5.Location = new Point(570, 577);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(420, 2);
+            panel5.TabIndex = 97;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.White;
+            panel4.ForeColor = Color.White;
+            panel4.Location = new Point(570, 498);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(420, 2);
+            panel4.TabIndex = 98;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.ForeColor = Color.White;
+            panel3.Location = new Point(570, 411);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(420, 2);
+            panel3.TabIndex = 99;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.FromArgb(222, 238, 246);
+            label9.Location = new Point(675, 584);
+            label9.Name = "label9";
+            label9.Size = new Size(318, 21);
+            label9.TabIndex = 105;
+            label9.Text = "AIUB Research and Development Club";
+            label9.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.FromArgb(222, 238, 246);
+            label8.Location = new Point(835, 500);
+            label8.Name = "label8";
+            label8.Size = new Size(155, 21);
+            label8.TabIndex = 106;
+            label8.Text = "AIUB Drama Club";
+            label8.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.FromArgb(222, 238, 246);
+            label7.Location = new Point(822, 415);
+            label7.Name = "label7";
+            label7.Size = new Size(171, 21);
+            label7.TabIndex = 107;
+            label7.Text = "AIUB Business Club";
+            label7.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.ForeColor = Color.White;
+            panel2.Location = new Point(567, 331);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(420, 2);
+            panel2.TabIndex = 96;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.FromArgb(222, 238, 246);
+            label6.Location = new Point(809, 334);
+            label6.Name = "label6";
+            label6.Size = new Size(181, 21);
+            label6.TabIndex = 104;
+            label6.Text = "AIUB Computer Club";
+            label6.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            label5.ForeColor = Color.FromArgb(222, 238, 246);
+            label5.Location = new Point(567, 546);
+            label5.Name = "label5";
+            label5.Size = new Size(87, 28);
+            label5.TabIndex = 103;
+            label5.Text = "ARND";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            label4.ForeColor = Color.FromArgb(222, 238, 246);
+            label4.Location = new Point(567, 467);
+            label4.Name = "label4";
+            label4.Size = new Size(67, 28);
+            label4.TabIndex = 102;
+            label4.Text = "ADC";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Century", 13.8F, FontStyle.Bold);
+            label3.ForeColor = Color.FromArgb(222, 238, 246);
+            label3.Location = new Point(567, 380);
+            label3.Name = "label3";
+            label3.Size = new Size(66, 28);
+            label3.TabIndex = 101;
+            label3.Text = "ABC";
+            // 
+            // ACC
+            // 
+            ACC.AutoSize = true;
+            ACC.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ACC.ForeColor = Color.FromArgb(222, 238, 246);
+            ACC.Location = new Point(564, 300);
+            ACC.Name = "ACC";
+            ACC.Size = new Size(66, 28);
+            ACC.TabIndex = 100;
+            ACC.Text = "ACC";
+            // 
             // AIUBuser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 40, 66);
             ClientSize = new Size(1393, 708);
-            Controls.Add(pictureBox2);
-            Controls.Add(Goback);
+            Controls.Add(label14);
+            Controls.Add(label11);
+            Controls.Add(label12);
+            Controls.Add(label10);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -407,14 +467,16 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(ViewARND);
-            Controls.Add(JoinARND);
-            Controls.Add(ViewADC);
-            Controls.Add(JoinADC);
-            Controls.Add(ViewABC);
-            Controls.Add(JoinABC);
             Controls.Add(ACC);
-            Controls.Add(ViewACC);
+            Controls.Add(pictureBox2);
+            Controls.Add(Goback);
+            Controls.Add(EventARND);
+            Controls.Add(JoinARND);
+            Controls.Add(EventADC);
+            Controls.Add(JoinADC);
+            Controls.Add(EventABC);
+            Controls.Add(JoinABC);
+            Controls.Add(EventACC);
             Controls.Add(JoinACC);
             Controls.Add(panel1);
             Controls.Add(label2);
@@ -436,6 +498,24 @@
         #endregion
 
         private PictureBox Goback;
+        private Button EventARND;
+        private Button JoinARND;
+        private Button EventADC;
+        private Button JoinADC;
+        private Button EventABC;
+        private Button JoinABC;
+        private Button EventACC;
+        private Button JoinACC;
+        private Panel panel1;
+        private Label label2;
+        private PictureBox pictureBox1;
+        private Label label1;
+        private PictureBox cross;
+        private PictureBox pictureBox2;
+        private Label label14;
+        private Label label11;
+        private Label label12;
+        private Label label10;
         private Panel panel5;
         private Panel panel4;
         private Panel panel3;
@@ -447,20 +527,6 @@
         private Label label5;
         private Label label4;
         private Label label3;
-        private Button ViewARND;
-        private Button JoinARND;
-        private Button ViewADC;
-        private Button JoinADC;
-        private Button ViewABC;
-        private Button JoinABC;
         private Label ACC;
-        private Button ViewACC;
-        private Button JoinACC;
-        private Panel panel1;
-        private Label label2;
-        private PictureBox pictureBox1;
-        private Label label1;
-        private PictureBox cross;
-        private PictureBox pictureBox2;
     }
 }

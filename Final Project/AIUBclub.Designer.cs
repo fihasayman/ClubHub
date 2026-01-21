@@ -143,7 +143,7 @@
             ACC.AutoSize = true;
             ACC.Font = new Font("Century", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ACC.ForeColor = Color.FromArgb(222, 238, 246);
-            ACC.Location = new Point(564, 295);
+            ACC.Location = new Point(564, 300);
             ACC.Name = "ACC";
             ACC.Size = new Size(66, 28);
             ACC.TabIndex = 17;
@@ -205,7 +205,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Century", 13.8F, FontStyle.Bold);
             label3.ForeColor = Color.FromArgb(222, 238, 246);
-            label3.Location = new Point(567, 375);
+            label3.Location = new Point(567, 380);
             label3.Name = "label3";
             label3.Size = new Size(66, 28);
             label3.TabIndex = 24;
@@ -216,7 +216,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Century", 13.8F, FontStyle.Bold);
             label4.ForeColor = Color.FromArgb(222, 238, 246);
-            label4.Location = new Point(567, 462);
+            label4.Location = new Point(567, 467);
             label4.Name = "label4";
             label4.Size = new Size(67, 28);
             label4.TabIndex = 25;
@@ -227,7 +227,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Century", 13.8F, FontStyle.Bold);
             label5.ForeColor = Color.FromArgb(222, 238, 246);
-            label5.Location = new Point(567, 541);
+            label5.Location = new Point(567, 546);
             label5.Name = "label5";
             label5.Size = new Size(87, 28);
             label5.TabIndex = 26;
@@ -307,7 +307,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(222, 238, 246);
-            label6.Location = new Point(809, 329);
+            label6.Location = new Point(809, 334);
             label6.Name = "label6";
             label6.Size = new Size(181, 21);
             label6.TabIndex = 31;
@@ -318,7 +318,7 @@
             // 
             panel2.BackColor = Color.White;
             panel2.ForeColor = Color.White;
-            panel2.Location = new Point(567, 326);
+            panel2.Location = new Point(567, 331);
             panel2.Name = "panel2";
             panel2.Size = new Size(420, 2);
             panel2.TabIndex = 13;
@@ -329,7 +329,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.FromArgb(222, 238, 246);
-            label7.Location = new Point(822, 410);
+            label7.Location = new Point(822, 415);
             label7.Name = "label7";
             label7.Size = new Size(171, 21);
             label7.TabIndex = 33;
@@ -342,7 +342,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(835, 495);
+            label8.Location = new Point(835, 500);
             label8.Name = "label8";
             label8.Size = new Size(155, 21);
             label8.TabIndex = 33;
@@ -355,7 +355,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Century", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(675, 579);
+            label9.Location = new Point(675, 584);
             label9.Name = "label9";
             label9.Size = new Size(318, 21);
             label9.TabIndex = 33;
@@ -366,7 +366,7 @@
             // 
             panel3.BackColor = Color.White;
             panel3.ForeColor = Color.White;
-            panel3.Location = new Point(570, 406);
+            panel3.Location = new Point(570, 411);
             panel3.Name = "panel3";
             panel3.Size = new Size(420, 2);
             panel3.TabIndex = 14;
@@ -375,7 +375,7 @@
             // 
             panel4.BackColor = Color.White;
             panel4.ForeColor = Color.White;
-            panel4.Location = new Point(570, 493);
+            panel4.Location = new Point(570, 498);
             panel4.Name = "panel4";
             panel4.Size = new Size(420, 2);
             panel4.TabIndex = 14;
@@ -384,7 +384,7 @@
             // 
             panel5.BackColor = Color.White;
             panel5.ForeColor = Color.White;
-            panel5.Location = new Point(570, 572);
+            panel5.Location = new Point(570, 577);
             panel5.Name = "panel5";
             panel5.Size = new Size(420, 2);
             panel5.TabIndex = 14;
@@ -417,7 +417,7 @@
             label10.BackColor = Color.Tomato;
             label10.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = Color.FromArgb(0, 40, 66);
-            label10.Location = new Point(908, 548);
+            label10.Location = new Point(908, 553);
             label10.Name = "label10";
             label10.Size = new Size(82, 21);
             label10.TabIndex = 92;
@@ -430,7 +430,7 @@
             label11.BackColor = Color.LightGreen;
             label11.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.FromArgb(0, 40, 66);
-            label11.Location = new Point(924, 468);
+            label11.Location = new Point(924, 473);
             label11.Name = "label11";
             label11.Size = new Size(66, 21);
             label11.TabIndex = 94;
@@ -443,7 +443,7 @@
             label12.BackColor = Color.LightGreen;
             label12.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.FromArgb(0, 40, 66);
-            label12.Location = new Point(924, 381);
+            label12.Location = new Point(924, 386);
             label12.Name = "label12";
             label12.Size = new Size(66, 21);
             label12.TabIndex = 93;
@@ -456,7 +456,7 @@
             label14.BackColor = Color.LightGreen;
             label14.Font = new Font("Century", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.FromArgb(0, 40, 66);
-            label14.Location = new Point(924, 302);
+            label14.Location = new Point(924, 307);
             label14.Name = "label14";
             label14.Size = new Size(66, 21);
             label14.TabIndex = 95;
@@ -505,6 +505,7 @@
             Name = "AIUBclub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Club";
+            Load += AIUBclub_Load;
             ((System.ComponentModel.ISupportInitialize)cross).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)Goback).EndInit();

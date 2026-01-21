@@ -35,15 +35,12 @@
             panel1 = new Panel();
             email = new Label();
             MemberLogin = new Button();
-            linkLabel2 = new LinkLabel();
-            linkLabel1 = new LinkLabel();
             label3 = new Label();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
             pass = new Label();
             button2 = new Button();
             panel2 = new Panel();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -115,32 +112,6 @@
             MemberLogin.UseVisualStyleBackColor = false;
             MemberLogin.Click += MemberLogin_Click;
             // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Font = new Font("Cambria", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel2.LinkColor = Color.FromArgb(0, 40, 66);
-            linkLabel2.Location = new Point(157, 371);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(66, 20);
-            linkLabel2.TabIndex = 6;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Sign up";
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Cambria", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            linkLabel1.ForeColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.LinkColor = Color.FromArgb(0, 40, 66);
-            linkLabel1.Location = new Point(116, 234);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(141, 20);
-            linkLabel1.TabIndex = 5;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Forgot Password";
-            linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -198,18 +169,16 @@
             button2.Size = new Size(27, 27);
             button2.TabIndex = 22;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(222, 238, 246);
             panel2.BackgroundImageLayout = ImageLayout.Zoom;
-            panel2.Controls.Add(label1);
             panel2.Controls.Add(panel3);
             panel2.Controls.Add(panel1);
             panel2.Controls.Add(email);
             panel2.Controls.Add(MemberLogin);
-            panel2.Controls.Add(linkLabel2);
-            panel2.Controls.Add(linkLabel1);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(textBox2);
             panel2.Controls.Add(textBox1);
@@ -218,17 +187,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(384, 423);
             panel2.TabIndex = 21;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(0, 40, 66);
-            label1.Location = new Point(100, 351);
-            label1.Name = "label1";
-            label1.Size = new Size(175, 20);
-            label1.TabIndex = 24;
-            label1.Text = "Don't have an account?";
             // 
             // FormMember
             // 
@@ -260,14 +218,11 @@
         private Panel panel1;
         private Label email;
         private Button MemberLogin;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel1;
         private Label label3;
         private TextBox textBox2;
         private TextBox textBox1;
         private Label pass;
         private Button button2;
         private Panel panel2;
-        private Label label1;
     }
 }

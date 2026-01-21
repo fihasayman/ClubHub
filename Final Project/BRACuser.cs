@@ -31,35 +31,60 @@ namespace Final_Project
 
         private void JoinACC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            Session.University = "BRAC";
+            Session.Club = "ROBU";
+            Registration regForm = new Registration();
+            regForm.Show();
             this.Hide();
         }
 
         private void JoinABC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
-            this.Hide();
+            MessageBox.Show("This Club is currently inactive.");
         }
 
         private void JoinADC_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            Session.University = "BRAC";
+            Session.Club = "CC";
+            Registration regForm = new Registration();
+            regForm.Show();
             this.Hide();
         }
 
         private void JoinARND_Click(object sender, EventArgs e)
         {
-            Registration Aiubreg = new Registration();
-            Aiubreg.Show();
+            Session.University = "BRAC";
+            Session.Club = "AC";
+            Registration regForm = new Registration();
+            regForm.Show();
             this.Hide();
         }
 
         private void ViewARND_Click(object sender, EventArgs e)
         {
+            Event_BUAC_User event_BUAC_User = new Event_BUAC_User();
+            event_BUAC_User.Show();
+            this.Hide();
+        }
 
+        private void Event_ROBU_Click(object sender, EventArgs e)
+        {
+            Event_ROBU_User event_ROBU_User = new Event_ROBU_User();
+            event_ROBU_User.Show();
+            this.Hide();
+        }
+
+        private void EventBUBC_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
+
+        private void EventBUCC_Click(object sender, EventArgs e)
+        {
+            Event_BUCC_User event_BUCC_User = new Event_BUCC_User();
+            event_BUCC_User.Show();
+            this.Hide();
         }
     }
 }

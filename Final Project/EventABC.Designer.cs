@@ -56,7 +56,6 @@
             label23 = new Label();
             pictureBox23 = new PictureBox();
             pictureBox22 = new PictureBox();
-            label22 = new Label();
             label21 = new Label();
             Max_Attendees = new Label();
             VolunteerCount = new Label();
@@ -72,7 +71,6 @@
             pictureBox11 = new PictureBox();
             pictureBox10 = new PictureBox();
             label15 = new Label();
-            label9 = new Label();
             label14 = new Label();
             pictureBox14 = new PictureBox();
             label8 = new Label();
@@ -348,7 +346,7 @@
             label26.BackColor = Color.FromArgb(0, 53, 82);
             label26.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label26.ForeColor = Color.FromArgb(222, 238, 246);
-            label26.Location = new Point(995, 94);
+            label26.Location = new Point(995, 58);
             label26.Name = "label26";
             label26.Size = new Size(126, 46);
             label26.TabIndex = 80;
@@ -361,7 +359,7 @@
             label25.BackColor = Color.FromArgb(0, 53, 82);
             label25.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label25.ForeColor = Color.FromArgb(222, 238, 246);
-            label25.Location = new Point(812, 106);
+            label25.Location = new Point(812, 70);
             label25.Name = "label25";
             label25.Size = new Size(90, 23);
             label25.TabIndex = 79;
@@ -373,7 +371,7 @@
             pictureBox25.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox25.BackgroundImage = (Image)resources.GetObject("pictureBox25.BackgroundImage");
             pictureBox25.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox25.Location = new Point(492, 105);
+            pictureBox25.Location = new Point(492, 69);
             pictureBox25.Name = "pictureBox25";
             pictureBox25.Size = new Size(30, 30);
             pictureBox25.TabIndex = 81;
@@ -385,7 +383,7 @@
             label24.BackColor = Color.FromArgb(0, 53, 82);
             label24.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label24.ForeColor = Color.FromArgb(222, 238, 246);
-            label24.Location = new Point(525, 109);
+            label24.Location = new Point(525, 73);
             label24.Name = "label24";
             label24.Size = new Size(180, 23);
             label24.TabIndex = 78;
@@ -397,7 +395,7 @@
             pictureBox24.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox24.BackgroundImage = (Image)resources.GetObject("pictureBox24.BackgroundImage");
             pictureBox24.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox24.Location = new Point(779, 102);
+            pictureBox24.Location = new Point(779, 66);
             pictureBox24.Name = "pictureBox24";
             pictureBox24.Size = new Size(30, 30);
             pictureBox24.TabIndex = 82;
@@ -420,7 +418,7 @@
             pictureBox23.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox23.BackgroundImage = (Image)resources.GetObject("pictureBox23.BackgroundImage");
             pictureBox23.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox23.Location = new Point(962, 102);
+            pictureBox23.Location = new Point(962, 66);
             pictureBox23.Name = "pictureBox23";
             pictureBox23.Size = new Size(30, 30);
             pictureBox23.TabIndex = 83;
@@ -436,26 +434,13 @@
             pictureBox22.TabIndex = 0;
             pictureBox22.TabStop = false;
             // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.BackColor = Color.FromArgb(0, 53, 82);
-            label22.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.ForeColor = Color.FromArgb(222, 238, 246);
-            label22.Location = new Point(492, 55);
-            label22.Name = "label22";
-            label22.Size = new Size(293, 23);
-            label22.TabIndex = 84;
-            label22.Text = "Organized by AIUB Business Club";
-            label22.TextAlign = ContentAlignment.MiddleLeft;
-            // 
             // label21
             // 
             label21.AutoSize = true;
             label21.BackColor = Color.FromArgb(0, 53, 82);
             label21.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label21.ForeColor = Color.FromArgb(222, 238, 246);
-            label21.Location = new Point(488, 225);
+            label21.Location = new Point(488, 189);
             label21.Name = "label21";
             label21.Size = new Size(423, 23);
             label21.TabIndex = 86;
@@ -468,7 +453,7 @@
             Max_Attendees.BackColor = Color.FromArgb(0, 53, 82);
             Max_Attendees.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Max_Attendees.ForeColor = Color.FromArgb(222, 238, 246);
-            Max_Attendees.Location = new Point(522, 168);
+            Max_Attendees.Location = new Point(522, 132);
             Max_Attendees.Name = "Max_Attendees";
             Max_Attendees.Size = new Size(140, 23);
             Max_Attendees.TabIndex = 91;
@@ -481,7 +466,7 @@
             VolunteerCount.BackColor = Color.FromArgb(0, 53, 82);
             VolunteerCount.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             VolunteerCount.ForeColor = Color.FromArgb(222, 238, 246);
-            VolunteerCount.Location = new Point(805, 168);
+            VolunteerCount.Location = new Point(805, 132);
             VolunteerCount.Name = "VolunteerCount";
             VolunteerCount.Size = new Size(94, 23);
             VolunteerCount.TabIndex = 92;
@@ -493,7 +478,7 @@
             pictureBox8.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
             pictureBox8.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox8.Location = new Point(492, 164);
+            pictureBox8.Location = new Point(492, 128);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(30, 30);
             pictureBox8.TabIndex = 93;
@@ -504,7 +489,7 @@
             pictureBox2.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(779, 164);
+            pictureBox2.Location = new Point(779, 128);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 30);
             pictureBox2.TabIndex = 94;
@@ -518,7 +503,6 @@
             panel5.Controls.Add(VolunteerCount);
             panel5.Controls.Add(Max_Attendees);
             panel5.Controls.Add(label21);
-            panel5.Controls.Add(label22);
             panel5.Controls.Add(pictureBox22);
             panel5.Controls.Add(pictureBox23);
             panel5.Controls.Add(label23);
@@ -538,7 +522,7 @@
             label13.BackColor = Color.FromArgb(0, 53, 82);
             label13.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label13.ForeColor = Color.FromArgb(222, 238, 246);
-            label13.Location = new Point(995, 106);
+            label13.Location = new Point(995, 75);
             label13.Name = "label13";
             label13.Size = new Size(66, 23);
             label13.TabIndex = 80;
@@ -551,7 +535,7 @@
             label12.BackColor = Color.FromArgb(0, 53, 82);
             label12.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.FromArgb(222, 238, 246);
-            label12.Location = new Point(812, 106);
+            label12.Location = new Point(812, 75);
             label12.Name = "label12";
             label12.Size = new Size(80, 23);
             label12.TabIndex = 79;
@@ -563,7 +547,7 @@
             pictureBox13.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox13.BackgroundImage = (Image)resources.GetObject("pictureBox13.BackgroundImage");
             pictureBox13.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox13.Location = new Point(492, 105);
+            pictureBox13.Location = new Point(492, 74);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(30, 30);
             pictureBox13.TabIndex = 81;
@@ -575,7 +559,7 @@
             label11.BackColor = Color.FromArgb(0, 53, 82);
             label11.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.FromArgb(222, 238, 246);
-            label11.Location = new Point(525, 109);
+            label11.Location = new Point(525, 78);
             label11.Name = "label11";
             label11.Size = new Size(141, 23);
             label11.TabIndex = 78;
@@ -587,7 +571,7 @@
             pictureBox12.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
             pictureBox12.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox12.Location = new Point(779, 102);
+            pictureBox12.Location = new Point(779, 71);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(30, 30);
             pictureBox12.TabIndex = 82;
@@ -610,7 +594,7 @@
             pictureBox11.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
             pictureBox11.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox11.Location = new Point(962, 102);
+            pictureBox11.Location = new Point(962, 71);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(30, 30);
             pictureBox11.TabIndex = 83;
@@ -632,25 +616,12 @@
             label15.BackColor = Color.FromArgb(0, 53, 82);
             label15.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label15.ForeColor = Color.FromArgb(222, 238, 246);
-            label15.Location = new Point(522, 170);
+            label15.Location = new Point(522, 139);
             label15.Name = "label15";
             label15.Size = new Size(140, 23);
             label15.TabIndex = 95;
             label15.Text = "Max_Attendees";
             label15.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.FromArgb(0, 53, 82);
-            label9.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(492, 55);
-            label9.Name = "label9";
-            label9.Size = new Size(293, 23);
-            label9.TabIndex = 84;
-            label9.Text = "Organized by AIUB Business Club";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label14
             // 
@@ -658,7 +629,7 @@
             label14.BackColor = Color.FromArgb(0, 53, 82);
             label14.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.FromArgb(222, 238, 246);
-            label14.Location = new Point(805, 170);
+            label14.Location = new Point(805, 139);
             label14.Name = "label14";
             label14.Size = new Size(94, 23);
             label14.TabIndex = 96;
@@ -670,7 +641,7 @@
             pictureBox14.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox14.BackgroundImage = (Image)resources.GetObject("pictureBox14.BackgroundImage");
             pictureBox14.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox14.Location = new Point(492, 166);
+            pictureBox14.Location = new Point(492, 135);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(30, 30);
             pictureBox14.TabIndex = 97;
@@ -682,7 +653,7 @@
             label8.BackColor = Color.FromArgb(0, 53, 82);
             label8.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(488, 225);
+            label8.Location = new Point(488, 194);
             label8.Name = "label8";
             label8.Size = new Size(614, 23);
             label8.TabIndex = 86;
@@ -694,7 +665,7 @@
             pictureBox9.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
             pictureBox9.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox9.Location = new Point(779, 166);
+            pictureBox9.Location = new Point(779, 135);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(30, 30);
             pictureBox9.TabIndex = 98;
@@ -707,7 +678,6 @@
             panel3.Controls.Add(label8);
             panel3.Controls.Add(pictureBox14);
             panel3.Controls.Add(label14);
-            panel3.Controls.Add(label9);
             panel3.Controls.Add(label15);
             panel3.Controls.Add(pictureBox10);
             panel3.Controls.Add(pictureBox11);
@@ -799,7 +769,6 @@
         private Label label23;
         private PictureBox pictureBox23;
         private PictureBox pictureBox22;
-        private Label label22;
         private Label label21;
         private Label Max_Attendees;
         private Label VolunteerCount;
@@ -815,7 +784,6 @@
         private PictureBox pictureBox11;
         private PictureBox pictureBox10;
         private Label label15;
-        private Label label9;
         private Label label14;
         private PictureBox pictureBox14;
         private Label label8;

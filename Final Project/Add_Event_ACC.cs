@@ -37,5 +37,10 @@ namespace Final_Project
         {
 
         }
+
+        private void S_date_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

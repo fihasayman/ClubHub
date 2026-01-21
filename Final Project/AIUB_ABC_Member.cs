@@ -32,15 +32,26 @@ namespace Final_Project
         private void Volunteer_ABC_1_Click(object sender, EventArgs e)
         {
             Volunteer_Form_ABC_1 volunteerForm1 = new Volunteer_Form_ABC_1();
-            volunteerForm1.Show();
-            this.Hide();
+            volunteerForm1.ShowDialog();
+
         }
 
         private void Volunteer_ABC_2_Click(object sender, EventArgs e)
         {
             Volunteer_Form_ABC_2 volunteerForm2 = new Volunteer_Form_ABC_2();
-            volunteerForm2.Show();
-            this.Hide();
+            volunteerForm2.ShowDialog();
+        }
+
+        private void Registration_ABC_1_Click(object sender, EventArgs e)
+        {
+            Registration_Form_ABC_1 registrationForm1 = new Registration_Form_ABC_1();
+            registrationForm1.ShowDialog();
+        }
+
+        private void Registration_ABC_2_Click(object sender, EventArgs e)
+        {
+            Registration_Form_ABC_2 registrationForm2 = new Registration_Form_ABC_2();
+            registrationForm2.ShowDialog();
         }
     }
 }

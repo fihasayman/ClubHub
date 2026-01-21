@@ -39,31 +39,53 @@ namespace Final_Project
             this.Close();
         }
 
-        private void LoginACC_Click(object sender, EventArgs e)
+        private void Login_Club(string university, string club)
         {
-            Login login = new Login();
-            login.Show();
+            Session.University = university;
+            Session.Club = club;
+
+            if (Session.Role == "President")
+            {
+                Login presidentLogin = new Login();
+                presidentLogin.Show();
+            }
+            else if (Session.Role == "Member")
+            {
+                FormMember memberLogin = new FormMember();
+                memberLogin.Show();
+            }
+
             this.Hide();
         }
 
-        private void LoginABC_Click(object sender, EventArgs e)
+        private void LoginYES_Click(object sender, EventArgs e) => Login_Club("NSU", "YES");
+        private void LoginPHSC_Click(object sender, EventArgs e) => Login_Club("NSU", "PHSC");
+        private void LoginCEC_Click(object sender, EventArgs e) => Login_Club("NSU", "CEC");
+        private void LoginAPC_Click(object sender, EventArgs e) => Login_Club("NSU", "APC");
+
+        private void EventAPC_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            MessageBox.Show("This Club is currently inactive, it has nothing to show");
+        }
+
+        private void EventYES_Click(object sender, EventArgs e)
+        {
+            Event_NYES Event_NYES = new Event_NYES();
+            Event_NYES.Show();
             this.Hide();
         }
 
-        private void LoginADC_Click(object sender, EventArgs e)
+        private void EventPHSC_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            Event_PHSC Event_PHSC = new Event_PHSC();
+            Event_PHSC.Show();
             this.Hide();
         }
 
-        private void LoginARND_Click(object sender, EventArgs e)
+        private void EventCEC_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            Event_NCEC Event_NCEC = new Event_NCEC();
+            Event_NCEC.Show();
             this.Hide();
         }
     }

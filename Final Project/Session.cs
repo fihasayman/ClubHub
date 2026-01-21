@@ -12,7 +12,6 @@ namespace Final_Project
         public static string University;   // AIUB,NSU etc.
         public static string Club;    //ACC/NSU yes etc
 
-        //public static AIUB_ClubEvent SelectedEvent;
 
     }
 }

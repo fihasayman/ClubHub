@@ -34,39 +34,41 @@
             Goback = new PictureBox();
             cross = new PictureBox();
             panel3 = new Panel();
-            pictureBox8 = new PictureBox();
-            label8 = new Label();
-            pictureBox9 = new PictureBox();
-            label9 = new Label();
+            pictureBox16 = new PictureBox();
             pictureBox15 = new PictureBox();
+            pictureBox17 = new PictureBox();
+            label9 = new Label();
+            label14 = new Label();
+            label8 = new Label();
+            pictureBox13 = new PictureBox();
+            pictureBox18 = new PictureBox();
+            label12 = new Label();
+            pictureBox19 = new PictureBox();
+            label13 = new Label();
+            label15 = new Label();
+            pictureBox8 = new PictureBox();
             pictureBox10 = new PictureBox();
-            Details_ABC_2 = new Button();
             Volunteer_ABC_2 = new Button();
-            pictureBox11 = new PictureBox();
             Registration_ABC_2 = new Button();
             label10 = new Label();
-            pictureBox12 = new PictureBox();
-            label11 = new Label();
-            pictureBox13 = new PictureBox();
-            label12 = new Label();
-            label13 = new Label();
             panel5 = new Panel();
+            pictureBox9 = new PictureBox();
+            pictureBox11 = new PictureBox();
             pictureBox2 = new PictureBox();
-            pictureBox14 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            VolunteerCount = new Label();
+            Max_Attendees = new Label();
             label21 = new Label();
-            pictureBox21 = new PictureBox();
-            Details_ABC_1 = new Button();
-            label22 = new Label();
             Volunteer_ABC_1 = new Button();
-            pictureBox22 = new PictureBox();
             pictureBox23 = new PictureBox();
-            label23 = new Label();
+            pictureBox22 = new PictureBox();
             pictureBox24 = new PictureBox();
+            label23 = new Label();
             label24 = new Label();
-            pictureBox25 = new PictureBox();
-            label25 = new Label();
-            label26 = new Label();
             Registration_ABC_1 = new Button();
+            pictureBox25 = new PictureBox();
+            label26 = new Label();
+            label25 = new Label();
             panel2 = new Panel();
             label7 = new Label();
             pictureBox7 = new PictureBox();
@@ -85,19 +87,21 @@
             ((System.ComponentModel.ISupportInitialize)Goback).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cross).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
             panel2.SuspendLayout();
@@ -159,26 +163,171 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(0, 53, 82);
-            panel3.Controls.Add(pictureBox8);
-            panel3.Controls.Add(label8);
-            panel3.Controls.Add(pictureBox9);
-            panel3.Controls.Add(label9);
+            panel3.Controls.Add(pictureBox16);
             panel3.Controls.Add(pictureBox15);
+            panel3.Controls.Add(pictureBox17);
+            panel3.Controls.Add(label9);
+            panel3.Controls.Add(label14);
+            panel3.Controls.Add(label8);
+            panel3.Controls.Add(pictureBox13);
+            panel3.Controls.Add(pictureBox18);
+            panel3.Controls.Add(label12);
+            panel3.Controls.Add(pictureBox19);
+            panel3.Controls.Add(label13);
+            panel3.Controls.Add(label15);
+            panel3.Controls.Add(pictureBox8);
             panel3.Controls.Add(pictureBox10);
-            panel3.Controls.Add(Details_ABC_2);
             panel3.Controls.Add(Volunteer_ABC_2);
-            panel3.Controls.Add(pictureBox11);
             panel3.Controls.Add(Registration_ABC_2);
             panel3.Controls.Add(label10);
-            panel3.Controls.Add(pictureBox12);
-            panel3.Controls.Add(label11);
-            panel3.Controls.Add(pictureBox13);
-            panel3.Controls.Add(label12);
-            panel3.Controls.Add(label13);
             panel3.Location = new Point(115, 509);
             panel3.Name = "panel3";
             panel3.Size = new Size(1155, 282);
             panel3.TabIndex = 92;
+            // 
+            // pictureBox16
+            // 
+            pictureBox16.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox16.BackgroundImage = (Image)resources.GetObject("pictureBox16.BackgroundImage");
+            pictureBox16.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox16.Location = new Point(779, 120);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(30, 30);
+            pictureBox16.TabIndex = 115;
+            pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.BackColor = Color.FromArgb(222, 238, 246);
+            pictureBox15.BackgroundImage = (Image)resources.GetObject("pictureBox15.BackgroundImage");
+            pictureBox15.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox15.Location = new Point(720, 224);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(30, 30);
+            pictureBox15.TabIndex = 111;
+            pictureBox15.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox17.BackgroundImage = (Image)resources.GetObject("pictureBox17.BackgroundImage");
+            pictureBox17.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox17.Location = new Point(492, 120);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(30, 30);
+            pictureBox17.TabIndex = 114;
+            pictureBox17.TabStop = false;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.FromArgb(0, 53, 82);
+            label9.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.FromArgb(222, 238, 246);
+            label9.Location = new Point(805, 124);
+            label9.Name = "label9";
+            label9.Size = new Size(94, 23);
+            label9.TabIndex = 113;
+            label9.Text = "Volunteer";
+            label9.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.FromArgb(0, 53, 82);
+            label14.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.FromArgb(222, 238, 246);
+            label14.Location = new Point(525, 124);
+            label14.Name = "label14";
+            label14.Size = new Size(140, 23);
+            label14.TabIndex = 112;
+            label14.Text = "Max_Attendees";
+            label14.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.FromArgb(0, 53, 82);
+            label8.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.FromArgb(222, 238, 246);
+            label8.Location = new Point(490, 173);
+            label8.Name = "label8";
+            label8.Size = new Size(614, 23);
+            label8.TabIndex = 111;
+            label8.Text = "CASESPECS 3.0, It is a National-level Inter University Case Competition";
+            label8.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox13.BackgroundImage = (Image)resources.GetObject("pictureBox13.BackgroundImage");
+            pictureBox13.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox13.Location = new Point(962, 69);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(30, 30);
+            pictureBox13.TabIndex = 110;
+            pictureBox13.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            pictureBox18.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox18.BackgroundImage = (Image)resources.GetObject("pictureBox18.BackgroundImage");
+            pictureBox18.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox18.Location = new Point(779, 69);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(30, 30);
+            pictureBox18.TabIndex = 109;
+            pictureBox18.TabStop = false;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.FromArgb(0, 53, 82);
+            label12.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.ForeColor = Color.FromArgb(222, 238, 246);
+            label12.Location = new Point(525, 73);
+            label12.Name = "label12";
+            label12.Size = new Size(141, 23);
+            label12.TabIndex = 105;
+            label12.Text = "7 January, 2025";
+            label12.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox19
+            // 
+            pictureBox19.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox19.BackgroundImage = (Image)resources.GetObject("pictureBox19.BackgroundImage");
+            pictureBox19.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox19.Location = new Point(492, 69);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(30, 30);
+            pictureBox19.TabIndex = 108;
+            pictureBox19.TabStop = false;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.FromArgb(0, 53, 82);
+            label13.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.ForeColor = Color.FromArgb(222, 238, 246);
+            label13.Location = new Point(812, 73);
+            label13.Name = "label13";
+            label13.Size = new Size(80, 23);
+            label13.TabIndex = 106;
+            label13.Text = "8:00 AM";
+            label13.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.FromArgb(0, 53, 82);
+            label15.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.FromArgb(222, 238, 246);
+            label15.Location = new Point(995, 73);
+            label15.Name = "label15";
+            label15.Size = new Size(66, 23);
+            label15.TabIndex = 107;
+            label15.Text = "Online";
+            label15.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox8
             // 
@@ -191,54 +340,6 @@
             pictureBox8.TabIndex = 102;
             pictureBox8.TabStop = false;
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.FromArgb(0, 53, 82);
-            label8.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.FromArgb(222, 238, 246);
-            label8.Location = new Point(492, 164);
-            label8.Name = "label8";
-            label8.Size = new Size(614, 23);
-            label8.TabIndex = 86;
-            label8.Text = "CASESPECS 3.0, It is a National-level Inter University Case Competition";
-            label8.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
-            pictureBox9.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox9.Location = new Point(698, 224);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(30, 30);
-            pictureBox9.TabIndex = 101;
-            pictureBox9.TabStop = false;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.FromArgb(0, 53, 82);
-            label9.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.FromArgb(222, 238, 246);
-            label9.Location = new Point(492, 55);
-            label9.Name = "label9";
-            label9.Size = new Size(293, 23);
-            label9.TabIndex = 84;
-            label9.Text = "Organized by AIUB Business Club";
-            label9.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox15
-            // 
-            pictureBox15.BackColor = Color.FromArgb(222, 238, 246);
-            pictureBox15.BackgroundImage = (Image)resources.GetObject("pictureBox15.BackgroundImage");
-            pictureBox15.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox15.Location = new Point(503, 224);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(30, 30);
-            pictureBox15.TabIndex = 98;
-            pictureBox15.TabStop = false;
-            // 
             // pictureBox10
             // 
             pictureBox10.BackgroundImage = (Image)resources.GetObject("pictureBox10.BackgroundImage");
@@ -248,20 +349,6 @@
             pictureBox10.Size = new Size(466, 332);
             pictureBox10.TabIndex = 0;
             pictureBox10.TabStop = false;
-            // 
-            // Details_ABC_2
-            // 
-            Details_ABC_2.BackColor = Color.FromArgb(222, 238, 246);
-            Details_ABC_2.FlatStyle = FlatStyle.Flat;
-            Details_ABC_2.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            Details_ABC_2.ForeColor = Color.FromArgb(0, 40, 66);
-            Details_ABC_2.Location = new Point(492, 217);
-            Details_ABC_2.Name = "Details_ABC_2";
-            Details_ABC_2.Size = new Size(172, 43);
-            Details_ABC_2.TabIndex = 99;
-            Details_ABC_2.Text = "Show Details";
-            Details_ABC_2.TextAlign = ContentAlignment.MiddleRight;
-            Details_ABC_2.UseVisualStyleBackColor = false;
             // 
             // Volunteer_ABC_2
             // 
@@ -278,30 +365,20 @@
             Volunteer_ABC_2.UseVisualStyleBackColor = false;
             Volunteer_ABC_2.Click += Volunteer_ABC_2_Click;
             // 
-            // pictureBox11
-            // 
-            pictureBox11.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
-            pictureBox11.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox11.Location = new Point(962, 102);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(30, 30);
-            pictureBox11.TabIndex = 83;
-            pictureBox11.TabStop = false;
-            // 
             // Registration_ABC_2
             // 
-            Registration_ABC_2.BackColor = Color.FromArgb(0, 53, 82);
+            Registration_ABC_2.BackColor = Color.FromArgb(222, 238, 246);
             Registration_ABC_2.FlatStyle = FlatStyle.Flat;
             Registration_ABC_2.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            Registration_ABC_2.ForeColor = Color.FromArgb(222, 238, 246);
-            Registration_ABC_2.Location = new Point(688, 218);
+            Registration_ABC_2.ForeColor = Color.FromArgb(0, 40, 66);
+            Registration_ABC_2.Location = new Point(709, 219);
             Registration_ABC_2.Name = "Registration_ABC_2";
-            Registration_ABC_2.Size = new Size(191, 42);
+            Registration_ABC_2.Size = new Size(170, 42);
             Registration_ABC_2.TabIndex = 103;
             Registration_ABC_2.Text = "Registration";
             Registration_ABC_2.TextAlign = ContentAlignment.MiddleRight;
             Registration_ABC_2.UseVisualStyleBackColor = false;
+            Registration_ABC_2.Click += Registration_ABC_2_Click;
             // 
             // label10
             // 
@@ -315,90 +392,52 @@
             label10.TabIndex = 77;
             label10.Text = "National-level Inter University Case Competition";
             // 
-            // pictureBox12
-            // 
-            pictureBox12.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
-            pictureBox12.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox12.Location = new Point(779, 102);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(30, 30);
-            pictureBox12.TabIndex = 82;
-            pictureBox12.TabStop = false;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.FromArgb(0, 53, 82);
-            label11.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.FromArgb(222, 238, 246);
-            label11.Location = new Point(525, 109);
-            label11.Name = "label11";
-            label11.Size = new Size(170, 23);
-            label11.TabIndex = 78;
-            label11.Text = "7-30 January, 2025";
-            label11.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox13
-            // 
-            pictureBox13.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox13.BackgroundImage = (Image)resources.GetObject("pictureBox13.BackgroundImage");
-            pictureBox13.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox13.Location = new Point(492, 105);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(30, 30);
-            pictureBox13.TabIndex = 81;
-            pictureBox13.TabStop = false;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.FromArgb(0, 53, 82);
-            label12.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.ForeColor = Color.FromArgb(222, 238, 246);
-            label12.Location = new Point(812, 106);
-            label12.Name = "label12";
-            label12.Size = new Size(80, 23);
-            label12.TabIndex = 79;
-            label12.Text = "8:00 AM";
-            label12.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.FromArgb(0, 53, 82);
-            label13.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.ForeColor = Color.FromArgb(222, 238, 246);
-            label13.Location = new Point(995, 106);
-            label13.Name = "label13";
-            label13.Size = new Size(66, 23);
-            label13.TabIndex = 80;
-            label13.Text = "Online";
-            label13.TextAlign = ContentAlignment.MiddleLeft;
-            // 
             // panel5
             // 
             panel5.BackColor = Color.FromArgb(0, 53, 82);
+            panel5.Controls.Add(pictureBox9);
+            panel5.Controls.Add(pictureBox11);
             panel5.Controls.Add(pictureBox2);
-            panel5.Controls.Add(pictureBox14);
+            panel5.Controls.Add(pictureBox12);
+            panel5.Controls.Add(VolunteerCount);
+            panel5.Controls.Add(Max_Attendees);
             panel5.Controls.Add(label21);
-            panel5.Controls.Add(pictureBox21);
-            panel5.Controls.Add(Details_ABC_1);
-            panel5.Controls.Add(label22);
             panel5.Controls.Add(Volunteer_ABC_1);
-            panel5.Controls.Add(pictureBox22);
             panel5.Controls.Add(pictureBox23);
-            panel5.Controls.Add(label23);
+            panel5.Controls.Add(pictureBox22);
             panel5.Controls.Add(pictureBox24);
+            panel5.Controls.Add(label23);
             panel5.Controls.Add(label24);
-            panel5.Controls.Add(pictureBox25);
-            panel5.Controls.Add(label25);
-            panel5.Controls.Add(label26);
             panel5.Controls.Add(Registration_ABC_1);
+            panel5.Controls.Add(pictureBox25);
+            panel5.Controls.Add(label26);
+            panel5.Controls.Add(label25);
             panel5.Location = new Point(115, 180);
             panel5.Name = "panel5";
             panel5.Size = new Size(1155, 282);
             panel5.TabIndex = 91;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.BackColor = Color.FromArgb(222, 238, 246);
+            pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
+            pictureBox9.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox9.Location = new Point(720, 225);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(30, 30);
+            pictureBox9.TabIndex = 112;
+            pictureBox9.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
+            pictureBox11.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox11.Location = new Point(779, 120);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(30, 30);
+            pictureBox11.TabIndex = 110;
+            pictureBox11.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -411,16 +450,42 @@
             pictureBox2.TabIndex = 96;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox14
+            // pictureBox12
             // 
-            pictureBox14.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox14.BackgroundImage = (Image)resources.GetObject("pictureBox14.BackgroundImage");
-            pictureBox14.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox14.Location = new Point(698, 225);
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(30, 30);
-            pictureBox14.TabIndex = 95;
-            pictureBox14.TabStop = false;
+            pictureBox12.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
+            pictureBox12.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox12.Location = new Point(492, 120);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(30, 30);
+            pictureBox12.TabIndex = 109;
+            pictureBox12.TabStop = false;
+            // 
+            // VolunteerCount
+            // 
+            VolunteerCount.AutoSize = true;
+            VolunteerCount.BackColor = Color.FromArgb(0, 53, 82);
+            VolunteerCount.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VolunteerCount.ForeColor = Color.FromArgb(222, 238, 246);
+            VolunteerCount.Location = new Point(805, 124);
+            VolunteerCount.Name = "VolunteerCount";
+            VolunteerCount.Size = new Size(94, 23);
+            VolunteerCount.TabIndex = 108;
+            VolunteerCount.Text = "Volunteer";
+            VolunteerCount.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // Max_Attendees
+            // 
+            Max_Attendees.AutoSize = true;
+            Max_Attendees.BackColor = Color.FromArgb(0, 53, 82);
+            Max_Attendees.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Max_Attendees.ForeColor = Color.FromArgb(222, 238, 246);
+            Max_Attendees.Location = new Point(525, 124);
+            Max_Attendees.Name = "Max_Attendees";
+            Max_Attendees.Size = new Size(140, 23);
+            Max_Attendees.TabIndex = 107;
+            Max_Attendees.Text = "Max_Attendees";
+            Max_Attendees.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label21
             // 
@@ -428,50 +493,12 @@
             label21.BackColor = Color.FromArgb(0, 53, 82);
             label21.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label21.ForeColor = Color.FromArgb(222, 238, 246);
-            label21.Location = new Point(492, 164);
+            label21.Location = new Point(490, 173);
             label21.Name = "label21";
             label21.Size = new Size(423, 23);
-            label21.TabIndex = 86;
+            label21.TabIndex = 106;
             label21.Text = "Supported by the Office of Student Affairs (OSA).";
             label21.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox21
-            // 
-            pictureBox21.BackColor = Color.FromArgb(222, 238, 246);
-            pictureBox21.BackgroundImage = (Image)resources.GetObject("pictureBox21.BackgroundImage");
-            pictureBox21.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox21.Location = new Point(503, 225);
-            pictureBox21.Name = "pictureBox21";
-            pictureBox21.Size = new Size(30, 30);
-            pictureBox21.TabIndex = 44;
-            pictureBox21.TabStop = false;
-            // 
-            // Details_ABC_1
-            // 
-            Details_ABC_1.BackColor = Color.FromArgb(222, 238, 246);
-            Details_ABC_1.FlatStyle = FlatStyle.Flat;
-            Details_ABC_1.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            Details_ABC_1.ForeColor = Color.FromArgb(0, 40, 66);
-            Details_ABC_1.Location = new Point(492, 218);
-            Details_ABC_1.Name = "Details_ABC_1";
-            Details_ABC_1.Size = new Size(172, 43);
-            Details_ABC_1.TabIndex = 44;
-            Details_ABC_1.Text = "Show Details";
-            Details_ABC_1.TextAlign = ContentAlignment.MiddleRight;
-            Details_ABC_1.UseVisualStyleBackColor = false;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.BackColor = Color.FromArgb(0, 53, 82);
-            label22.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.ForeColor = Color.FromArgb(222, 238, 246);
-            label22.Location = new Point(492, 55);
-            label22.Name = "label22";
-            label22.Size = new Size(293, 23);
-            label22.TabIndex = 84;
-            label22.Text = "Organized by AIUB Business Club";
-            label22.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // Volunteer_ABC_1
             // 
@@ -488,6 +515,17 @@
             Volunteer_ABC_1.UseVisualStyleBackColor = false;
             Volunteer_ABC_1.Click += Volunteer_ABC_1_Click;
             // 
+            // pictureBox23
+            // 
+            pictureBox23.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox23.BackgroundImage = (Image)resources.GetObject("pictureBox23.BackgroundImage");
+            pictureBox23.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox23.Location = new Point(962, 66);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(30, 30);
+            pictureBox23.TabIndex = 105;
+            pictureBox23.TabStop = false;
+            // 
             // pictureBox22
             // 
             pictureBox22.BackgroundImage = (Image)resources.GetObject("pictureBox22.BackgroundImage");
@@ -498,16 +536,16 @@
             pictureBox22.TabIndex = 0;
             pictureBox22.TabStop = false;
             // 
-            // pictureBox23
+            // pictureBox24
             // 
-            pictureBox23.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox23.BackgroundImage = (Image)resources.GetObject("pictureBox23.BackgroundImage");
-            pictureBox23.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox23.Location = new Point(962, 102);
-            pictureBox23.Name = "pictureBox23";
-            pictureBox23.Size = new Size(30, 30);
-            pictureBox23.TabIndex = 83;
-            pictureBox23.TabStop = false;
+            pictureBox24.BackColor = Color.FromArgb(0, 53, 82);
+            pictureBox24.BackgroundImage = (Image)resources.GetObject("pictureBox24.BackgroundImage");
+            pictureBox24.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox24.Location = new Point(779, 66);
+            pictureBox24.Name = "pictureBox24";
+            pictureBox24.Size = new Size(30, 30);
+            pictureBox24.TabIndex = 104;
+            pictureBox24.TabStop = false;
             // 
             // label23
             // 
@@ -521,53 +559,44 @@
             label23.TabIndex = 77;
             label23.Text = "Workshop on Experimental Marketing";
             // 
-            // pictureBox24
-            // 
-            pictureBox24.BackColor = Color.FromArgb(0, 53, 82);
-            pictureBox24.BackgroundImage = (Image)resources.GetObject("pictureBox24.BackgroundImage");
-            pictureBox24.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox24.Location = new Point(779, 102);
-            pictureBox24.Name = "pictureBox24";
-            pictureBox24.Size = new Size(30, 30);
-            pictureBox24.TabIndex = 82;
-            pictureBox24.TabStop = false;
-            // 
             // label24
             // 
             label24.AutoSize = true;
             label24.BackColor = Color.FromArgb(0, 53, 82);
             label24.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label24.ForeColor = Color.FromArgb(222, 238, 246);
-            label24.Location = new Point(525, 109);
+            label24.Location = new Point(525, 73);
             label24.Name = "label24";
             label24.Size = new Size(180, 23);
-            label24.TabIndex = 78;
+            label24.TabIndex = 100;
             label24.Text = "03 September, 2025";
             label24.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // Registration_ABC_1
+            // 
+            Registration_ABC_1.BackColor = Color.FromArgb(222, 238, 246);
+            Registration_ABC_1.FlatStyle = FlatStyle.Flat;
+            Registration_ABC_1.Font = new Font("Cambria", 12F, FontStyle.Bold);
+            Registration_ABC_1.ForeColor = Color.FromArgb(0, 40, 66);
+            Registration_ABC_1.Location = new Point(709, 219);
+            Registration_ABC_1.Name = "Registration_ABC_1";
+            Registration_ABC_1.Size = new Size(170, 42);
+            Registration_ABC_1.TabIndex = 97;
+            Registration_ABC_1.Text = "Registration";
+            Registration_ABC_1.TextAlign = ContentAlignment.MiddleRight;
+            Registration_ABC_1.UseVisualStyleBackColor = false;
+            Registration_ABC_1.Click += Registration_ABC_1_Click;
             // 
             // pictureBox25
             // 
             pictureBox25.BackColor = Color.FromArgb(0, 53, 82);
             pictureBox25.BackgroundImage = (Image)resources.GetObject("pictureBox25.BackgroundImage");
             pictureBox25.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox25.Location = new Point(492, 105);
+            pictureBox25.Location = new Point(492, 69);
             pictureBox25.Name = "pictureBox25";
             pictureBox25.Size = new Size(30, 30);
-            pictureBox25.TabIndex = 81;
+            pictureBox25.TabIndex = 103;
             pictureBox25.TabStop = false;
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.BackColor = Color.FromArgb(0, 53, 82);
-            label25.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label25.ForeColor = Color.FromArgb(222, 238, 246);
-            label25.Location = new Point(812, 106);
-            label25.Name = "label25";
-            label25.Size = new Size(90, 23);
-            label25.TabIndex = 79;
-            label25.Text = "03:00 PM";
-            label25.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label26
             // 
@@ -575,26 +604,25 @@
             label26.BackColor = Color.FromArgb(0, 53, 82);
             label26.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label26.ForeColor = Color.FromArgb(222, 238, 246);
-            label26.Location = new Point(995, 94);
+            label26.Location = new Point(995, 58);
             label26.Name = "label26";
             label26.Size = new Size(126, 46);
-            label26.TabIndex = 80;
+            label26.TabIndex = 102;
             label26.Text = "Multipurpose\r\nHall, Annex-7";
             label26.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // Registration_ABC_1
+            // label25
             // 
-            Registration_ABC_1.BackColor = Color.FromArgb(0, 53, 82);
-            Registration_ABC_1.FlatStyle = FlatStyle.Flat;
-            Registration_ABC_1.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            Registration_ABC_1.ForeColor = Color.FromArgb(222, 238, 246);
-            Registration_ABC_1.Location = new Point(688, 219);
-            Registration_ABC_1.Name = "Registration_ABC_1";
-            Registration_ABC_1.Size = new Size(191, 42);
-            Registration_ABC_1.TabIndex = 97;
-            Registration_ABC_1.Text = "Registration";
-            Registration_ABC_1.TextAlign = ContentAlignment.MiddleRight;
-            Registration_ABC_1.UseVisualStyleBackColor = false;
+            label25.AutoSize = true;
+            label25.BackColor = Color.FromArgb(0, 53, 82);
+            label25.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label25.ForeColor = Color.FromArgb(222, 238, 246);
+            label25.Location = new Point(812, 70);
+            label25.Name = "label25";
+            label25.Size = new Size(90, 23);
+            label25.TabIndex = 101;
+            label25.Text = "03:00 PM";
+            label25.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // panel2
             // 
@@ -810,20 +838,22 @@
             ((System.ComponentModel.ISupportInitialize)cross).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
             panel2.ResumeLayout(false);
@@ -845,31 +875,14 @@
         private PictureBox Goback;
         private PictureBox cross;
         private Panel panel3;
-        private Label label8;
         private Button Edit2;
         private Button Delete2;
-        private Label label9;
         private PictureBox pictureBox10;
-        private PictureBox pictureBox11;
         private Label label10;
-        private PictureBox pictureBox12;
-        private Label label11;
-        private PictureBox pictureBox13;
-        private Label label12;
-        private Label label13;
         private Panel panel5;
-        private Label label21;
-        private Button Details_ABC_1;
-        private Label label22;
         private Button Volunteer_ABC_1;
         private PictureBox pictureBox22;
-        private PictureBox pictureBox23;
         private Label label23;
-        private PictureBox pictureBox24;
-        private Label label24;
-        private PictureBox pictureBox25;
-        private Label label25;
-        private Label label26;
         private Panel panel2;
         private Label label7;
         private PictureBox pictureBox7;
@@ -886,14 +899,33 @@
         private Label label5;
         private Label label6;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox14;
         private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox15;
-        private Button Details_ABC_2;
         private Button Volunteer_ABC_2;
         private Button Registration_ABC_2;
-        private PictureBox pictureBox21;
         private Button Registration_ABC_1;
+        private PictureBox pictureBox11;
+        private PictureBox pictureBox12;
+        private Label VolunteerCount;
+        private Label Max_Attendees;
+        private Label label21;
+        private PictureBox pictureBox23;
+        private PictureBox pictureBox24;
+        private Label label24;
+        private PictureBox pictureBox25;
+        private Label label26;
+        private Label label25;
+        private PictureBox pictureBox16;
+        private PictureBox pictureBox17;
+        private Label label9;
+        private Label label14;
+        private Label label8;
+        private PictureBox pictureBox13;
+        private PictureBox pictureBox18;
+        private Label label12;
+        private PictureBox pictureBox19;
+        private Label label13;
+        private Label label15;
+        private PictureBox pictureBox15;
+        private PictureBox pictureBox9;
     }
 }
