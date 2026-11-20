@@ -132,7 +132,7 @@ Add project screenshots here.
 **SAfiha Ayman**,
 **Md. Zahid Hasan**,
 **Al Musabbir Amin Rafi**,
-**Shuvo**
+**Shuvo**,
 Object Oriented Programming 2 Course Project
 
 American International University-Bangladesh (AIUB)
