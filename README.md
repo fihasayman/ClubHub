@@ -129,11 +129,11 @@ This project provided practical experience in:
 Add project screenshots here.
 
 ## Authors
-**SAfiha Ayman**
-**Md. Zahid Hasan**
-**Al Musabbir Amin Rafi**
+**SAfiha Ayman**,
+**Md. Zahid Hasan**,
+**Al Musabbir Amin Rafi**,
 **Shuvo**
-Software Engineering Course Project
+Object Oriented Programming 2 Course Project
 
 American International University-Bangladesh (AIUB)
 
